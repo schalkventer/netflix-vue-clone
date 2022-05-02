@@ -17,32 +17,33 @@ const component = {
     return {
       itemList: [
         new Item(
-          "w6_nW_NAA2",
+          "S_mc_2001",
           "Shrek",
           "Comedy",
           false,
-          "16-06-2006",
+          "22-04-2001",
           "/src/images/shrek.jpg",
-          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
-        ),
-        new Item(
-          "w6_nW_NAA2",
-          "The Office",
-          "Comedy",
-          false,
-          "16-06-2006",
-          "/src/images/the-office.jpg",
-          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
+          "https://www.youtube.com/watch?v=CwXOrWvPBPk"
         ),
 
         new Item(
-          "w6_nW_NAA2",
+          "TO_sc_2005",
+          "The Office",
+          "Comedy",
+          false,
+          "24-03-2005",
+          "/src/images/the-office.jpg",
+          "https://www.youtube.com/watch?v=2iKZmRR9AR4"
+        ),
+
+        new Item(
+          "HR_mc_2007",
           "Hot Rod",
           "Comedy",
           false,
-          "16-06-2006",
+          "03-08-2007",
           "/src/images/hot-rod.jpg",
-          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
+          "https://www.youtube.com/watch?v=yByhd7FAOug"
         ),
 
         new Item(
