@@ -48,12 +48,12 @@ const component = {
 
         new Movie(
           "N7xyWhg0i",
-          "Fast and Furious",
+          "Mulan",
           "Action",
           false,
-          "12-03-2009",
-          "/src/images/fast-and-furious-4.jpg",
-          "https://www.youtube.com/watch?v=BCg9R_MGZKg"
+          "09-03-2020",
+          "/src/images/mulan-poster.jpg",
+          "https://www.youtube.com/watch?v=KK8FHdFluOQ"
         ),
 
         new Movie(
