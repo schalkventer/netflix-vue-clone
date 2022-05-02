@@ -27,11 +27,31 @@ const component = {
         ),
         new Item(
           "w6_nW_NAA2",
-          "The",
-          "Action",
+          "The Office",
+          "Comedy",
           false,
           "16-06-2006",
           "/src/images/the-office.jpg",
+          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
+        ),
+
+        new Item(
+          "w6_nW_NAA2",
+          "Hot Rod",
+          "Comedy",
+          false,
+          "16-06-2006",
+          "/src/images/hot-rod.jpg",
+          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
+        ),
+
+        new Item(
+          "w6_nW_NAA2",
+          "Hot Rod",
+          "Comedy",
+          false,
+          "16-06-2006",
+          "/src/images/hot-rod.jpg",
           "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
         ),
 
@@ -133,21 +153,14 @@ const component = {
         </div>
       </div>
 
-      <div class="container-heading">Comedy</div>
+      <div class="container-heading">Available</div>
       <div class="container">
         <div class="box" v-for="(item, index) in availableList" :key="item.id">
           <img class="bg" v-bind:src="item.thumbnail" />
         </div>
       </div>
 
-      <div class="container-heading">Action</div>
-      <div class="container">
-        <div class="box" v-for="(item, index) in actionList" :key="item.id">
-          <img class="bg" v-bind:src="item.thumbnail" />
-        </div>
-      </div>
-
-      <div class="container-heading">Action</div>
+      <div class="container-heading">Comedy</div>
       <div class="container">
         <div class="box" v-for="(item, index) in comedyList" :key="item.id">
           <img class="bg" v-bind:src="item.thumbnail" />
