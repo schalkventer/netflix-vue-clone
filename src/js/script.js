@@ -22,7 +22,7 @@ const component = {
           "Comedy",
           false,
           "22-04-2001",
-          "/src/images/shrek.jpg",
+          "./src/images/shrek.jpg",
           "https://www.youtube.com/watch?v=CwXOrWvPBPk"
         ),
 
@@ -32,7 +32,7 @@ const component = {
           "Comedy",
           false,
           "24-03-2005",
-          "/src/images/the-office.jpg",
+          "./src/images/the-office.jpg",
           "https://www.youtube.com/watch?v=2iKZmRR9AR4"
         ),
 
@@ -42,7 +42,7 @@ const component = {
           "Comedy",
           false,
           "03-08-2007",
-          "/src/images/hot-rod.jpg",
+          "./src/images/hot-rod.jpg",
           "https://www.youtube.com/watch?v=yByhd7FAOug"
         ),
 
@@ -52,7 +52,7 @@ const component = {
           "Comedy",
           false,
           "18-12-2015",
-          "/src/images/f-is-for-family.jpg",
+          "./src/images/f-is-for-family.jpg",
           "https://www.youtube.com/watch?v=f2AmK5QVtbg"
         ),
 
@@ -62,8 +62,8 @@ const component = {
           "Comedy",
           false,
           "23-12-2004",
-          "/src/images/kung-fu-hustle.jpg",
-          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
+          "./src/images/kung-fu-hustle.jpg",
+          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
       ],
       visibleSlide: 0,
@@ -130,6 +130,13 @@ const component = {
           <img class="bg" v-bind:src="item.thumbnail" />
         </div>
       </div>
+
+      <div class="container-heading">Action</div>
+      <div class="container">
+        <div class="box" v-for="(item, index) in actionList" :key="item.id">
+          <img class="bg" v-bind:src="item.thumbnail" />
+        </div>
+      </div> 
 
       <div class="container-heading">Comedy</div>
       <div class="container">
