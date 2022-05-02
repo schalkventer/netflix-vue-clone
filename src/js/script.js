@@ -179,7 +179,7 @@ const component = {
         new Item(
           "BeeOpckwFw",
           "Free Guy",
-          "comedy",
+          "Comedy",
           false,
           "13-08-2021",
           "/src/images/free-guy.jpg",
@@ -199,7 +199,7 @@ const component = {
         new Item(
           "jZzvMU7hP7",
           "Grown Ups",
-          "comedy",
+          "Comedy",
           false,
           "25-06-2010",
           "/src/images/grown-ups.jpg",
@@ -241,6 +241,12 @@ const component = {
         return item.genre === "Action";
       });
     },
+
+    comedyList() {
+      return this.itemList.filter((item) => {
+        return item.genre === "Comedy";
+      });
+    },
   },
 
   /* html */
@@ -276,6 +282,14 @@ const component = {
       </div>
 
       <div class="container-heading">Action</div>
+      <div class="container">
+        <div class="box" v-for="(item, index) in actionList" :key="item.id">
+          <img class="bg" v-bind:src="item.thumbnail" />
+        </div>
+      </div>
+    </div>
+
+          <div class="container-heading">Action</div>
       <div class="container">
         <div class="box" v-for="(item, index) in actionList" :key="item.id">
           <img class="bg" v-bind:src="item.thumbnail" />
