@@ -1,7 +1,7 @@
-class Movie {
-  constructor(id, movieName, genre, comingSoon, availDate, thumbNail, preview) {
+class Item {
+  constructor(id, itemName, genre, comingSoon, availDate, thumbNail, preview) {
     this.id = id;
-    this.name = movieName;
+    this.name = itemName;
     this.genre = genre;
     this.comingSoon = comingSoon;
     this.availDate = availDate;
@@ -15,8 +15,8 @@ const { createApp } = window.Vue;
 const component = {
   data() {
     return {
-      movieList: [
-        new Movie(
+      itemList: [
+        new Item(
           "pi8HsKXN5G",
           "Everest",
           "Adventure",
@@ -26,7 +26,7 @@ const component = {
           "https://www.youtube.com/watch?v=5ZQVpPiOji0"
         ),
 
-        new Movie(
+        new Item(
           "zhfzHGhFjK",
           "The Fast and The Furious",
           "Action",
@@ -36,7 +36,7 @@ const component = {
           "https://www.youtube.com/watch?v=GoSUdZJg3pw"
         ),
 
-        new Movie(
+        new Item(
           "TymNNADk_X",
           "2 Fast 2 Furious",
           "Action",
@@ -46,7 +46,7 @@ const component = {
           "https://www.youtube.com/watch?v=ZZGkV_xWGw4"
         ),
 
-        new Movie(
+        new Item(
           "N7xyWhg0i",
           "Mulan",
           "Action",
@@ -56,7 +56,7 @@ const component = {
           "https://www.youtube.com/watch?v=KK8FHdFluOQ"
         ),
 
-        new Movie(
+        new Item(
           "vdPZEOGsEj",
           "Fast 5",
           "Action",
@@ -66,7 +66,7 @@ const component = {
           "https://www.youtube.com/watch?v=OqjeOYeG5_A"
         ),
 
-        new Movie(
+        new Item(
           "YS8INBNOTe",
           "Fast and Furious 6",
           "Action",
@@ -76,7 +76,7 @@ const component = {
           "https://www.youtube.com/watch?v=C_puVuHoR6o"
         ),
 
-        new Movie(
+        new Item(
           "w6_nW_NAA2",
           "The Fast and the Furious: Tokyo Drift",
           "Action",
@@ -86,7 +86,7 @@ const component = {
           "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
         ),
 
-        new Movie(
+        new Item(
           "b8if75wW6O",
           "Furious 7",
           "Action",
@@ -96,7 +96,7 @@ const component = {
           "https://www.youtube.com/watch?v=C_puVuHoR6o"
         ),
 
-        new Movie(
+        new Item(
           "_aGB09UvNV",
           "The Fate of the Furious",
           "Action",
@@ -106,7 +106,7 @@ const component = {
           "https://www.youtube.com/watch?v=uisBaTkQAEs"
         ),
 
-        new Movie(
+        new Item(
           "f_A33vTJu8",
           "Fast & Furious Presents: Hobbs & Shaw",
           "Action",
@@ -116,7 +116,7 @@ const component = {
           " https://www.youtube.com/watch?v=HZ7PAyCDwEg"
         ),
 
-        new Movie(
+        new Item(
           "9h7vV2eVXG",
           "F9",
           "Action",
@@ -126,7 +126,7 @@ const component = {
           "https://www.youtube.com/watch?v=fEE4RO-_jug"
         ),
 
-        new Movie(
+        new Item(
           "Wfx-U5Gst3",
           "Black Panther",
           "Action",
@@ -136,7 +136,7 @@ const component = {
           "https://www.youtube.com/watch?v=xjDjIWPwcPU"
         ),
 
-        new Movie(
+        new Item(
           "kMK4m9zQ9B",
           "Black Adam",
           "Action",
@@ -146,7 +146,7 @@ const component = {
           "https://www.youtube.com/watch?v=N73oTiIIJe0"
         ),
 
-        new Movie(
+        new Item(
           "9BFEgBKzKF",
           "Avatar 2",
           "Action/Adventure",
@@ -156,7 +156,7 @@ const component = {
           "https://www.youtube.com/watch?v=MknKGdvuYKo"
         ),
 
-        new Movie(
+        new Item(
           "fVmpautPP3",
           "Top Gun: Maverick",
           "Action",
@@ -166,7 +166,7 @@ const component = {
           "https://www.youtube.com/watch?v=qSqVVswa420"
         ),
 
-        new Movie(
+        new Item(
           "m6WxCSplRZ",
           "Halloween Ends",
           "Horror",
@@ -176,7 +176,7 @@ const component = {
           "https://www.youtube.com/watch?v=4c8OLrmejkY&vl=en"
         ),
 
-        new Movie(
+        new Item(
           "BeeOpckwFw",
           "Free Guy",
           "comedy",
@@ -186,7 +186,7 @@ const component = {
           "https://www.youtube.com/watch?v=X2m-08cOAbc"
         ),
 
-        new Movie(
+        new Item(
           "L9N64HhJXz",
           "The Wolf of Wall Street",
           "Drama",
@@ -196,7 +196,7 @@ const component = {
           "https://www.youtube.com/watch?v=iszwuX1AK6A"
         ),
 
-        new Movie(
+        new Item(
           "jZzvMU7hP7",
           "Grown Ups",
           "comedy",
@@ -206,7 +206,7 @@ const component = {
           "https://www.youtube.com/watch?v=e01NVCveGkg"
         ),
 
-        new Movie(
+        new Item(
           "ba-j126W2c",
           "The Transporter",
           "Action",
@@ -225,14 +225,20 @@ const component = {
 
   computed: {
     comingSoonList() {
-      return this.movieList.filter((movie) => {
-        return movie.comingSoon === true;
+      return this.itemList.filter((item) => {
+        return item.comingSoon === true;
       });
     },
 
     availableList() {
-      return this.movieList.filter((movie) => {
-        return movie.comingSoon === false;
+      return this.itemList.filter((item) => {
+        return item.comingSoon === false;
+      });
+    },
+
+    actionList() {
+      return this.itemList.filter((item) => {
+        return item.genre === "Action";
       });
     },
   },
@@ -257,15 +263,22 @@ const component = {
     <div id="content-grid">
       <div class="container-heading">Coming Soon</div>
       <div class="container">
-        <div class="box" v-for="(movie, index) in comingSoonList" :key="movie.id">
-          <img class="bg" v-bind:src="movie.thumbnail" />
+        <div class="box" v-for="(item, index) in comingSoonList" :key="item.id">
+          <img class="bg" v-bind:src="item.thumbnail" />
         </div>
       </div>
 
       <div class="container-heading">Comedy</div>
       <div class="container">
-        <div class="box" v-for="(movie, index) in availableList" :key="movie.id">
-          <img class="bg" v-bind:src="movie.thumbnail" />
+        <div class="box" v-for="(item, index) in availableList" :key="item.id">
+          <img class="bg" v-bind:src="item.thumbnail" />
+        </div>
+      </div>
+
+      <div class="container-heading">Action</div>
+      <div class="container">
+        <div class="box" v-for="(item, index) in actionList" :key="item.id">
+          <img class="bg" v-bind:src="item.thumbnail" />
         </div>
       </div>
     </div>
