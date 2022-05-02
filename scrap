@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="icon" href="./src/images/favicon.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/e4ad388285.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="./src/js/script.js" defer></script>
+    <title>Home - Netflix</title>
+  </head>
+  <body>
+    <div id="app">
+      <header id="myHeader">
+        <a href="./index.html" class="netflix-logo"><img src="./src/images/netflix.png" alt="Netflix logo" /></a>
+        <ul class="navigation-list">
+          <li>Home</li>
+          <li><a href="./pages/series.html">Series</a></li>
+          <li><a href="./pages/films.html">Films</a></li>
+          <li><a href="./pages/my-list.html">My List</a></li>
+        </ul>
+        <div class="search">
+          <input type="search" placeholder="Titles, people, genres" id="search" />
+          <i class="fa fa-search"></i>
+        </div>
+      </header>
+
+      <main>
+        <section class="banner">
+          <img v-bind:src="background[0]" class="bg" />
+          <div class="content">
+            <img v-bind:src="title[0]" class="movieTitle" />
+            <p>{{ description }}</p>
+            <div class="buttons">
+              <button class="button play"><a :href="trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
+              <button class="button info" id="myBtn"><i class="fa fa-plus"></i> More info</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="content-grid">
+          <div class="container-heading">Action</div>
+          <div class="container">
+            <div class="box"><img :src="background[0]" :alt="name[0]" class="bg" /></div>
+            <div class="box"><img :src="background[1]" :alt="name[1]" class="bg" /></div>
+            <div class="box"><img :src="background[0]" :alt="name[0]" class="bg" /></div>
+            <div class="box"><img :src="background[1]" :alt="name[1]" class="bg" /></div>
+            <div class="box"><img :src="background[0]" :alt="name[0]" class="bg" /></div>
+            <div class="box"><img :src="background[1]" :alt="name[1]" class="bg" /></div>
+          </div>
+
+          <div class="container-heading">Crime</div>
+          <div class="container">
+            <div class="box"><img :src="background[0]" :alt="name[0]" class="bg" /></div>
+            <div class="box"><img :src="background[1]" :alt="name[1]" class="bg" /></div>
+            <div class="box"><img :src="background[0]" :alt="name[0]" class="bg" /></div>
+            <div class="box"><img :src="background[1]" :alt="name[1]" class="bg" /></div>
+            <div class="box"><img :src="background[0]" :alt="name[0]" class="bg" /></div>
+            <div class="box"><img :src="background[1]" :alt="name[1]" class="bg" /></div>
+          </div>
+
+          <div class="container-heading">Comedy</div>
+          <div class="container">
+            <div class="box"><img :src="background[0]" :alt="name[0]" class="bg" /></div>
+            <div class="box"><img :src="background[1]" :alt="name[1]" class="bg" /></div>
+            <div class="box"><img :src="background[0]" :alt="name[0]" class="bg" /></div>
+            <div class="box"><img :src="background[1]" :alt="name[1]" class="bg" /></div>
+            <div class="box"><img :src="background[0]" :alt="name[0]" class="bg" /></div>
+            <div class="box"><img :src="background[1]" :alt="name[1]" class="bg" /></div>
+          </div>
+        </section>
+      </main>
+
+    <footer>
+      <social class="social-links">
+        <a href="https://www.instagram.com/oliver.vermeulen/" class="social-link" target="_blank"><i class="fab fa-instagram icon" alt="Instagram"></i></a>
+        <a href="https://github.com/OliverVermeulen" class="social-link" target="_blank"><i class="fab fa-github icon" alt="GitHub"></i></a>
+        <a href="https://www.linkedin.com/in/oliver-vermeulen-311221222/" class="social-link" target="_blank"><i class="fab fa-linkedin-in icon" alt="Linkedin"></i></a>
+      </social>
+      <ul class="footer-grid">
+        <li class="footer-grid-wrapper">Audio and Subtitles</li>
+        <li class="footer-grid-wrapper">Audio Description</li>
+        <li class="footer-grid-wrapper">Help Centre</li>
+        <li class="footer-grid-wrapper">Gift Cards</li>
+
+        <li class="footer-grid-wrapper">Media Centre</li>
+        <li class="footer-grid-wrapper">Investor Relations</li>
+        <li class="footer-grid-wrapper">Jobs</li>
+        <li class="footer-grid-wrapper">Terms of Use</li>
+
+        <li class="footer-grid-wrapper">Privacy</li>
+        <li class="footer-grid-wrapper">Legal Notices</li>
+        <li class="footer-grid-wrapper">Cookie Preferences</li>
+        <li class="footer-grid-wrapper">Corporate Information</li>
+      </ul>
+      <p>© 2022-2022 Viswinkel, Ltd.</p>
+    </footer>
+    
+      <!-- Modal -->
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img v-bind:src="background[0]" />
+            <span class="close">x
+            <div class="modal-buttons">
+              <button class="modal-play"><a :href="trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <p>{{ release }}</p>
+            <p>{{ rating }}</p>
+            <p>{{ description }}</p>
+          </div>
+          <div class="modal-footer">
+            <h3>About: {{ name[0] }}</h3>
+            <p>Director: {{ cast[0] }}</p>
+            <p>Cast: {{ cast }}</p>
+            <p>Genre: {{ genre }}</p>
+          </div>
+        </div>
+      </div>    
+    </div>
+
+    <!-- <script>
+      let myVue = Vue.createApp({
+        data() {
+          return {
+            background: ["./src/images/pb-bg.jpg", "./src/images/mulan-bg.jpg"],
+            title: ["./src/images/pb-logo.png", "./src/images/mulan-logo.png"],
+            name: ["Peaky Blinders", "Mulan"],
+            description: "Tommy Shelby, a dangerous man, leads the Peaky Blinders, a gang based in Birmingham. Soon, Chester Campbell, an inspector, decides to nab him and put an end to the criminal activities.",
+            trailer: "https://www.youtube.com/watch?v=jImOqxQ0kkM",
+            cast: ["Steven Knight", "Cillian Murphy", "Tom Hardy", "Natasha O'Keeffe", "Anna Taylor-Joy", "Sophie Rundle", "Annabelle Wallis", "Paul Anderson", "Iddo Goldberg", "Joe Cole", "Helen McCrory", "Ned Dennehy", "Benjamin Zephaniah", "Andy Nyman", "David Dawson", "Charlie Creed-Miles", "Tommy Flanagan", "Charlotte Riley", "Finn Cole", "Noah Taylor", "Aimee-Ffion Edwards", "Packy Lee", "Gaite Jansen",],
+            genre: ["Historical Fiction", "Drama", "Crime film"],
+          };
+        },
+      }).mount("#app");
+    </script> -->
+  </body>
+</html>
