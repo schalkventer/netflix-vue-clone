@@ -47,63 +47,23 @@ const component = {
         ),
 
         new Item(
-          "w6_nW_NAA2",
+          "FIFF_sc_2015",
           "F is for Family",
           "Comedy",
           false,
-          "16-06-2006",
+          "18-12-2015",
           "/src/images/f-is-for-family.jpg",
-          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
+          "https://www.youtube.com/watch?v=f2AmK5QVtbg"
         ),
 
         new Item(
-          "w6_nW_NAA2",
+          "KFH_mc_2004",
           "Kung Fu Hustle",
           "Comedy",
           false,
-          "16-06-2006",
+          "23-12-2004",
           "/src/images/kung-fu-hustle.jpg",
           "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
-        ),
-
-        new Item(
-          "kMK4m9zQ9B",
-          "Black Adam",
-          "Action",
-          true,
-          "21-10-2022",
-          "/src/images/black-adam.jpg",
-          "https://www.youtube.com/watch?v=N73oTiIIJe0"
-        ),
-
-        new Item(
-          "9BFEgBKzKF",
-          "Avatar 2",
-          "Action/Adventure",
-          true,
-          "16-12-2022",
-          "/src/images/avatar-2.jpg",
-          "https://www.youtube.com/watch?v=MknKGdvuYKo"
-        ),
-
-        new Item(
-          "fVmpautPP3",
-          "Top Gun: Maverick",
-          "Action",
-          true,
-          "27-05-2022",
-          "/src/images/top-gun-2.jpg",
-          "https://www.youtube.com/watch?v=qSqVVswa420"
-        ),
-
-        new Item(
-          "m6WxCSplRZ",
-          "Halloween Ends",
-          "Horror",
-          true,
-          "14-10-2022",
-          "/src/images/halloween-ends.jpg",
-          "https://www.youtube.com/watch?v=4c8OLrmejkY&vl=en"
         ),
       ],
       visibleSlide: 0,
