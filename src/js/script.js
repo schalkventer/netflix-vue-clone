@@ -1,38 +1,3 @@
-// // modal
-// let modal = document.getElementById("myModal");
-// let btn = document.getElementById("myBtn");
-// let span = document.getElementsByClassName("close")[0];
-
-// btn.onclick = function () {
-//   modal.style.display = "block";
-// };
-
-// span.onclick = function () {
-//   modal.style.display = "none";
-// };
-
-// window.onclick = function (event) {
-//   if (event.target == modal) {
-//     modal.style.display = "none";
-//   }
-// };
-
-// // sticky header
-// window.onscroll = function () {
-//   myFunction();
-// };
-
-// let header = document.getElementById("myHeader");
-// let sticky = header.offsetTop;
-
-// function myFunction() {
-//   if (window.pageYOffset > sticky) {
-//     header.classList.add("sticky");
-//   } else {
-//     header.classList.remove("sticky");
-//   }
-// }
-
 class Movie {
   constructor(id, movieName, genre, comingSoon, availDate, thumbNail, preview) {
     this.id = id;
