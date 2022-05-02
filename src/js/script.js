@@ -178,11 +178,11 @@ const component = {
 
         new Item(
           "BeeOpckwFw",
-          "Free Guy",
+          "Shrek",
           "Comedy",
           false,
           "13-08-2021",
-          "/src/images/free-guy.jpg",
+          "/src/images/shrek.jpg",
           "https://www.youtube.com/watch?v=X2m-08cOAbc"
         ),
 
@@ -287,14 +287,15 @@ const component = {
           <img class="bg" v-bind:src="item.thumbnail" />
         </div>
       </div>
-    </div>
 
-          <div class="container-heading">Action</div>
+      <div class="container-heading">Action</div>
       <div class="container">
         <div class="box" v-for="(item, index) in actionList" :key="item.id">
           <img class="bg" v-bind:src="item.thumbnail" />
         </div>
-      </div>
+      </div> 
+    </div>
+
     </div>
   </main>
 
