@@ -47,11 +47,21 @@ const component = {
 
         new Item(
           "w6_nW_NAA2",
-          "Hot Rod",
+          "F is for Family",
           "Comedy",
           false,
           "16-06-2006",
-          "/src/images/hot-rod.jpg",
+          "/src/images/f-is-for-family.jpg",
+          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
+        ),
+
+        new Item(
+          "w6_nW_NAA2",
+          "Kung Fu Hustle",
+          "Comedy",
+          false,
+          "16-06-2006",
+          "/src/images/kung-fu-hustle.jpg",
           "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
         ),
 
