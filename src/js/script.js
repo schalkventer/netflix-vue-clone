@@ -17,123 +17,49 @@ const component = {
     return {
       itemList: [
         new Item(
-          "pi8HsKXN5G",
-          "Everest",
-          "Adventure",
-          false,
-          "18-09-2015",
-          "/src/images/Everest.jpg",
-          "https://www.youtube.com/watch?v=5ZQVpPiOji0"
-        ),
-
-        new Item(
-          "zhfzHGhFjK",
-          "The Fast and The Furious",
-          "Action",
-          false,
-          "22-06-2001",
-          "/src/images/fast-and-furious-1.jpg",
-          "https://www.youtube.com/watch?v=GoSUdZJg3pw"
-        ),
-
-        new Item(
-          "TymNNADk_X",
-          "2 Fast 2 Furious",
-          "Action",
-          false,
-          "06-06-2003",
-          "/src/images/fast-and-furious-2.jpg",
-          "https://www.youtube.com/watch?v=ZZGkV_xWGw4"
-        ),
-
-        new Item(
-          "N7xyWhg0i",
-          "Mulan",
-          "Action",
-          false,
-          "09-03-2020",
-          "/src/images/mulan-poster.jpg",
-          "https://www.youtube.com/watch?v=KK8FHdFluOQ"
-        ),
-
-        new Item(
-          "vdPZEOGsEj",
-          "Fast 5",
-          "Action",
-          false,
-          "29-04-2011",
-          "/src/images/fast-and-furious-5.jpg",
-          "https://www.youtube.com/watch?v=OqjeOYeG5_A"
-        ),
-
-        new Item(
-          "YS8INBNOTe",
-          "Fast and Furious 6",
-          "Action",
-          false,
-          "06-05-2013",
-          "/src/images/fast-and-furious-6.jpg",
-          "https://www.youtube.com/watch?v=C_puVuHoR6o"
-        ),
-
-        new Item(
           "w6_nW_NAA2",
-          "The Fast and the Furious: Tokyo Drift",
+          "Shrek",
           "Action",
           false,
           "16-06-2006",
-          "/src/images/fast-and-furious-3.jpg",
+          "/src/images/shrek.jpg",
           "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
         ),
-
         new Item(
-          "b8if75wW6O",
-          "Furious 7",
+          "w6_nW_NAA2",
+          "Shrek",
           "Action",
           false,
-          "03-04-2015",
-          "/src/images/fast-and-furious-7.jpg",
-          "https://www.youtube.com/watch?v=C_puVuHoR6o"
+          "16-06-2006",
+          "/src/images/the-office.jpg",
+          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
         ),
-
         new Item(
-          "_aGB09UvNV",
-          "The Fate of the Furious",
+          "w6_nW_NAA2",
+          "Shrek",
           "Action",
           false,
-          "14-04-2017",
-          "/src/images/fast-and-furious-8.jpg",
-          "https://www.youtube.com/watch?v=uisBaTkQAEs"
+          "16-06-2006",
+          "/src/images/shrek.jpg",
+          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
         ),
-
         new Item(
-          "f_A33vTJu8",
-          "Fast & Furious Presents: Hobbs & Shaw",
+          "w6_nW_NAA2",
+          "Shrek",
           "Action",
           false,
-          "02-08-2019",
-          "/src/images/fast-and-furious-hobbs.jpg",
-          " https://www.youtube.com/watch?v=HZ7PAyCDwEg"
+          "16-06-2006",
+          "/src/images/shrek.jpg",
+          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
         ),
-
         new Item(
-          "9h7vV2eVXG",
-          "F9",
+          "w6_nW_NAA2",
+          "Shrek",
           "Action",
           false,
-          "25-06-2021",
-          "/src/images/fast-and-furious-9.jpg",
-          "https://www.youtube.com/watch?v=fEE4RO-_jug"
-        ),
-
-        new Item(
-          "Wfx-U5Gst3",
-          "Black Panther",
-          "Action",
-          false,
-          "16-02-2018",
-          "/src/images/black-panther.jpg",
-          "https://www.youtube.com/watch?v=xjDjIWPwcPU"
+          "16-06-2006",
+          "/src/images/shrek.jpg",
+          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
         ),
 
         new Item(
@@ -174,46 +100,6 @@ const component = {
           "14-10-2022",
           "/src/images/halloween-ends.jpg",
           "https://www.youtube.com/watch?v=4c8OLrmejkY&vl=en"
-        ),
-
-        new Item(
-          "BeeOpckwFw",
-          "Shrek",
-          "Comedy",
-          false,
-          "13-08-2021",
-          "/src/images/shrek.jpg",
-          "https://www.youtube.com/watch?v=X2m-08cOAbc"
-        ),
-
-        new Item(
-          "L9N64HhJXz",
-          "The Wolf of Wall Street",
-          "Drama",
-          false,
-          "25-12-2013",
-          "/src/images/wolf-of-wallstreet.jpg",
-          "https://www.youtube.com/watch?v=iszwuX1AK6A"
-        ),
-
-        new Item(
-          "jZzvMU7hP7",
-          "Grown Ups",
-          "Comedy",
-          false,
-          "25-06-2010",
-          "/src/images/grown-ups.jpg",
-          "https://www.youtube.com/watch?v=e01NVCveGkg"
-        ),
-
-        new Item(
-          "ba-j126W2c",
-          "The Transporter",
-          "Action",
-          false,
-          "02-10-2002",
-          "/src/images/transporter.jpg",
-          "https://www.youtube.com/watch?v=0poXFSvX0_4"
         ),
       ],
       visibleSlide: 0,
@@ -290,7 +176,7 @@ const component = {
 
       <div class="container-heading">Action</div>
       <div class="container">
-        <div class="box" v-for="(item, index) in actionList" :key="item.id">
+        <div class="box" v-for="(item, index) in comedyList" :key="item.id">
           <img class="bg" v-bind:src="item.thumbnail" />
         </div>
       </div> 
