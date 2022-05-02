@@ -21,7 +21,7 @@ const component = {
           "Everest",
           "Adventure",
           false,
-          "18/09/2015",
+          "18-09-2015",
           "/src/images/Everest.jpg",
           "https://www.youtube.com/watch?v=5ZQVpPiOji0"
         ),
@@ -31,7 +31,7 @@ const component = {
           "The Fast and The Furious",
           "Action",
           false,
-          "22/06/2001",
+          "22-06-2001",
           "/src/images/fast-and-furious-1.jpg",
           "https://www.youtube.com/watch?v=GoSUdZJg3pw"
         ),
@@ -41,7 +41,7 @@ const component = {
           "2 Fast 2 Furious",
           "Action",
           false,
-          "06/06/2003",
+          "06-06-2003",
           "/src/images/fast-and-furious-2.jpg",
           "https://www.youtube.com/watch?v=ZZGkV_xWGw4"
         ),
@@ -51,7 +51,7 @@ const component = {
           "Fast and Furious",
           "Action",
           false,
-          "12/03/2009",
+          "12-03-2009",
           "/src/images/fast-and-furious-4.jpg",
           "https://www.youtube.com/watch?v=BCg9R_MGZKg"
         ),
@@ -61,7 +61,7 @@ const component = {
           "Fast 5",
           "Action",
           false,
-          "29/04/2011",
+          "29-04-2011",
           "/src/images/fast-and-furious-5.jpg",
           "https://www.youtube.com/watch?v=OqjeOYeG5_A"
         ),
@@ -71,7 +71,7 @@ const component = {
           "Fast and Furious 6",
           "Action",
           false,
-          "06/05/2013",
+          "06-05-2013",
           "/src/images/fast-and-furious-6.jpg",
           "https://www.youtube.com/watch?v=C_puVuHoR6o"
         ),
@@ -81,7 +81,7 @@ const component = {
           "The Fast and the Furious: Tokyo Drift",
           "Action",
           false,
-          "16/06/2006",
+          "16-06-2006",
           "/src/images/fast-and-furious-3.jpg",
           "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
         ),
@@ -91,7 +91,7 @@ const component = {
           "Furious 7",
           "Action",
           false,
-          "03/04/2015",
+          "03-04-2015",
           "/src/images/fast-and-furious-7.jpg",
           "https://www.youtube.com/watch?v=C_puVuHoR6o"
         ),
@@ -101,7 +101,7 @@ const component = {
           "The Fate of the Furious",
           "Action",
           false,
-          "14/04/2017",
+          "14-04-2017",
           "/src/images/fast-and-furious-8.jpg",
           "https://www.youtube.com/watch?v=uisBaTkQAEs"
         ),
@@ -111,7 +111,7 @@ const component = {
           "Fast & Furious Presents: Hobbs & Shaw",
           "Action",
           false,
-          "02/08/2019",
+          "02-08-2019",
           "/src/images/fast-and-furious-hobbs.jpg",
           " https://www.youtube.com/watch?v=HZ7PAyCDwEg"
         ),
@@ -121,7 +121,7 @@ const component = {
           "F9",
           "Action",
           false,
-          "25/06/2021",
+          "25-06-2021",
           "/src/images/fast-and-furious-9.jpg",
           "https://www.youtube.com/watch?v=fEE4RO-_jug"
         ),
@@ -131,7 +131,7 @@ const component = {
           "Black Panther",
           "Action",
           false,
-          "16/02/2018",
+          "16-02-2018",
           "/src/images/black-panther.jpg",
           "https://www.youtube.com/watch?v=xjDjIWPwcPU"
         ),
@@ -141,7 +141,7 @@ const component = {
           "Black Adam",
           "Action",
           true,
-          "21/10/2022",
+          "21-10-2022",
           "/src/images/black-adam.jpg",
           "https://www.youtube.com/watch?v=N73oTiIIJe0"
         ),
@@ -151,7 +151,7 @@ const component = {
           "Avatar 2",
           "Action/Adventure",
           true,
-          "16/12/2022",
+          "16-12-2022",
           "/src/images/avatar-2.jpg",
           "https://www.youtube.com/watch?v=MknKGdvuYKo"
         ),
@@ -161,7 +161,7 @@ const component = {
           "Top Gun: Maverick",
           "Action",
           true,
-          "27/05/2022",
+          "27-05-2022",
           "/src/images/top-gun-2.jpg",
           "https://www.youtube.com/watch?v=qSqVVswa420"
         ),
@@ -171,7 +171,7 @@ const component = {
           "Halloween Ends",
           "Horror",
           true,
-          "14/10/2022",
+          "14-10-2022",
           "/src/images/halloween-ends.jpg",
           "https://www.youtube.com/watch?v=4c8OLrmejkY&vl=en"
         ),
@@ -181,7 +181,7 @@ const component = {
           "Free Guy",
           "comedy",
           false,
-          "13/08/2021",
+          "13-08-2021",
           "/src/images/free-guy.jpg",
           "https://www.youtube.com/watch?v=X2m-08cOAbc"
         ),
@@ -191,7 +191,7 @@ const component = {
           "The Wolf of Wall Street",
           "Drama",
           false,
-          "25/12/2013",
+          "25-12-2013",
           "/src/images/wolf-of-wallstreet.jpg",
           "https://www.youtube.com/watch?v=iszwuX1AK6A"
         ),
@@ -201,7 +201,7 @@ const component = {
           "Grown Ups",
           "comedy",
           false,
-          "25/06/2010",
+          "25-06-2010",
           "/src/images/grown-ups.jpg",
           "https://www.youtube.com/watch?v=e01NVCveGkg"
         ),
@@ -211,7 +211,7 @@ const component = {
           "The Transporter",
           "Action",
           false,
-          "02/10/2002",
+          "02-10-2002",
           "/src/images/transporter.jpg",
           "https://www.youtube.com/watch?v=0poXFSvX0_4"
         ),
