@@ -19,7 +19,7 @@ const component = {
         new Item(
           "w6_nW_NAA2",
           "Shrek",
-          "Action",
+          "Comedy",
           false,
           "16-06-2006",
           "/src/images/shrek.jpg",
@@ -27,38 +27,11 @@ const component = {
         ),
         new Item(
           "w6_nW_NAA2",
-          "Shrek",
+          "The",
           "Action",
           false,
           "16-06-2006",
           "/src/images/the-office.jpg",
-          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
-        ),
-        new Item(
-          "w6_nW_NAA2",
-          "Shrek",
-          "Action",
-          false,
-          "16-06-2006",
-          "/src/images/shrek.jpg",
-          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
-        ),
-        new Item(
-          "w6_nW_NAA2",
-          "Shrek",
-          "Action",
-          false,
-          "16-06-2006",
-          "/src/images/shrek.jpg",
-          "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
-        ),
-        new Item(
-          "w6_nW_NAA2",
-          "Shrek",
-          "Action",
-          false,
-          "16-06-2006",
-          "/src/images/shrek.jpg",
           "https://www.youtube.com/watch?v=p8HQ2JLlc4E"
         ),
 
