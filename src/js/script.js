@@ -67,6 +67,16 @@ const component = {
         ),
 
         new Item(
+          "KFH_mc_2004",
+          "Spaceforce",
+          "Comedy",
+          false,
+          "23-12-2004",
+          "./src/images/spaceforce.jpg",
+          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+        ),
+
+        new Item(
           "PB_sa_2013",
           "Peaky Blinders",
           "Action",
@@ -110,6 +120,15 @@ const component = {
           false,
           "23-12-2013",
           "./src/images/vikings.jpg",
+          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+        ),
+        new Item(
+          "PB_sa_2013",
+          "Django Unchained",
+          "Action",
+          false,
+          "23-12-2013",
+          "./src/images/django-unchained.jpg",
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
         
