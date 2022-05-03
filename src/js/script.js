@@ -160,25 +160,25 @@ const component = {
           false,
           "18-06-2020",
           "./src/images/a-whisker-away.jpg",
-          "https://www.youtube.com/watch?v=f2AmK5QVtbg"
+          "https://www.youtube.com/watch?v=aXc9DVfLTGo"
         ),
         new Item(
-          "KFH_mc_2004",
-          "Kung Fu Hustle",
+          "LN_sr_2020",
+          "Luna Nera",
           "Romance",
           false,
-          "23-12-2004",
-          "./src/images/kung-fu-hustle.jpg",
-          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+          "31-01-2020",
+          "./src/images/luna-nera.jpg",
+          "https://www.youtube.com/watch?v=H4oLu4cP7h4"
         ),
         new Item(
-          "SF_sc_",
-          "Space Force",
+          "TPD_mr_2019",
+          "The Prefect Date",
           "Romance",
           false,
-          "29-05-2020",
-          "./src/images/spaceforce.jpg",
-          "https://www.youtube.com/watch?v=bdpYpulGCKc"
+          "12-04-2019",
+          "./src/images/the-perfect-date.jpg",
+          "https://www.youtube.com/watch?v=Hld-7oBn3Rk"
         ),
       ],
       visibleSlide: 0,
