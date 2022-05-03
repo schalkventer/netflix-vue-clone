@@ -1,5 +1,15 @@
 class Item {
-  constructor(id, name, genre, comingSoon, releaseDate, poster, trailer, description, preview) {
+  constructor(
+    id,
+    name,
+    genre,
+    comingSoon,
+    releaseDate,
+    poster,
+    trailer,
+    description,
+    preview
+  ) {
     this.id = id;
     this.name = name;
     this.genre = genre;
@@ -37,7 +47,7 @@ const component = {
           "07-05-2022",
           "./src/images/obi-wan-kenobi.png",
           "https://www.youtube.com/watch?v=TWTfhyvzTx0",
-          "The Jedi Master contends with the consequences of his greatest defeat -- the downfall and corruption of his one-time friend and apprentice, Anakin Skywalker, who turned to the dark side as evil Sith Lord Darth Vader.",
+          "The Jedi Master contends with the consequences of his greatest defeat the downfall and corruption of his one-time friend and apprentice, Anakin Skywalker, who turned to the dark side as evil Sith Lord Darth Vader.",
           "./src/videos/obi-wan.mp4"
         ),
         new Item(
@@ -158,7 +168,7 @@ const component = {
           "Comedy",
           false,
           "29-05-2020",
-          "./src/images/spaceforce.jpg",
+          "./src/images/space-force.jpg",
           "https://www.youtube.com/watch?v=bdpYpulGCKc"
         ),
 
