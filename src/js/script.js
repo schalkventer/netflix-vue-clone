@@ -145,13 +145,13 @@ const component = {
           "https://www.youtube.com/watch?v=2iKZmRR9AR4"
         ),
         new Item(
-          "HR_sr_2007",
-          "Hot Rod",
+          "OMB_sr_2018",
+          "On My Block",
           "Romance",
           false,
-          "03-08-2007",
-          "./src/images/hot-rod.jpg",
-          "https://www.youtube.com/watch?v=yByhd7FAOug"
+          "16-03-2018",
+          "./src/images/on-my-block.jpg",
+          "https://www.youtube.com/watch?v=WlZvfarViqc"
         ),
         new Item(
           "AWA_mr_2015",
