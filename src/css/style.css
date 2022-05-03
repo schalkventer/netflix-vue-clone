@@ -108,7 +108,7 @@ header .netflix-logo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: blur(2px);
+  /* filter: blur(2px); */
 }
 
 .content {
@@ -118,7 +118,7 @@ header .netflix-logo img {
   color: white;
   font-weight: 400;
   font-size: 1.2vw;
-  line-height: 22px;
+  line-height: 30px;
   text-shadow: 2px 2px 4px #0000004d;
 }
 

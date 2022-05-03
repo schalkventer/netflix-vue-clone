@@ -184,12 +184,14 @@ const component = {
 
   <main>
     <section class="banner">
-      <img src="./src/images/kung-fu-hustle.jpg" class="bg" />
+      <video class="bg" autoplay muted>
+      <source src="./src/videos/thor-love-and-thunder.mp4" type="video/mp4">
+      </video>
       <div class="content">
         <img src="./src/images/love-and-thunder.png" class="movieTitle" />
-        <p>Following the events of Avengers: Endgame, Thor attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Jane Foster—who has become the Mighty Thor—to stop Gorr the God Butcher from eliminating all gods.</p>
+        <p>Following the events of Avengers: Endgame, Thor attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Jane Foster who has become the Mighty Thor to stop Gorr the God Butcher from eliminating all gods.</p>
         <div class="buttons">
-          <button class="button play"><a :href="trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
+          <button class="button play"><i class="fa fa-play"></i> Play</a></button>
           <button class="button info" id="myBtn"><i class="fa fa-plus"></i> More info</button>
         </div>
       </div>
