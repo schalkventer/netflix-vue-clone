@@ -67,13 +67,13 @@ const component = {
         ),
 
         new Item(
-          "KFH_mc_2004",
-          "Spaceforce",
+          "SF_sc_",
+          "Space Force",
           "Comedy",
           false,
-          "23-12-2004",
+          "29-05-2020",
           "./src/images/spaceforce.jpg",
-          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+          "https://www.youtube.com/watch?v=bdpYpulGCKc"
         ),
 
         new Item(
@@ -183,6 +183,20 @@ const component = {
   </header>
 
   <main>
+  <section class="banner">
+  <img src="./src/images/kung-fu-hustle.jpg" class="bg" />
+  <div class="content">
+    <img src="./src/images/netflix.png" class="movieTitle" />
+    <p>fghfhfghfhffgffghfhfdhfdhfdhdfhfdhfdhfhffdhfdhhdfhgfdhdf</p>
+    <div class="buttons">
+      <button class="button play"><a :href="trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
+      <button class="button info" id="myBtn"><i class="fa fa-plus"></i> More info</button>
+    </div>
+  </div>
+</section>
+
+
+
     <div id="content-grid">
       <div class="container-heading">Coming Soon</div>
       <div class="container">
@@ -244,3 +258,4 @@ window.addEventListener("DOMContentLoaded", () => {
   const app = createApp(component);
   app.mount("#app");
 });
+
