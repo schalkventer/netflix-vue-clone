@@ -1,17 +1,5 @@
 class Item {
-  constructor(
-    id,
-    name,
-    genre,
-    runtime,
-    rating,
-    description,
-    releaseDate,
-    comingSoon,
-    poster,
-    trailer,
-    preview
-  ) {
+  constructor(id, name, genre, runtime, rating, description, releaseDate, comingSoon, poster, trailer, preview) {
     this.id = id;
     this.name = name;
     this.genre = genre;
@@ -33,7 +21,7 @@ const component = {
     return {
       itemList: [
         new Item(
-          "TLAT_nm_2022",
+          "m_TLAT_nm_2022",
           "Thor Love and Thunder",
           "New",
           "1h32m",
@@ -46,7 +34,7 @@ const component = {
           "./src/videos/thor-love-and-thunder.mp4"
         ),
         new Item(
-          "OBK_ns_2022",
+          "s_OBK_ns_2022",
           "Obi-Wan Kenobi",
           "New",
           "1 Season",
@@ -59,7 +47,7 @@ const component = {
           "./src/videos/obi-wan.mp4"
         ),
         new Item(
-          "JWD_nm_2022",
+          "m_JWD_nm_2022",
           "Jurassic World Dominion",
           "New",
           "1h32m",
@@ -72,7 +60,7 @@ const component = {
           "./src/videos/jurassic-world-dominion.mp4"
         ),
         new Item(
-          "HOTD_ns_2022",
+          "s_HOTD_ns_2022",
           "House of the Dragon",
           "New",
           "1 Season",
@@ -86,7 +74,7 @@ const component = {
         ),
 
         new Item(
-          "PB_sa_2013",
+          "s_PB_sa_2013",
           "Peaky Blinders",
           "Action",
           "6 Seasons",
@@ -98,7 +86,7 @@ const component = {
           "https://www.youtube.com/watch?v=jImOqxQ0kkM"
         ),
         new Item(
-          "AOTD_ma_2021",
+          "m_AOTD_ma_2021",
           "Army of the Dead",
           "Action",
           "2h 28m",
@@ -110,7 +98,7 @@ const component = {
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
         new Item(
-          "LDR_sa_2019",
+          "s_LDR_sa_2019",
           "Love, Death + Robots",
           "Action",
           "2 Seasons",
@@ -122,7 +110,7 @@ const component = {
           "https://www.youtube.com/watch?v=wUFwunMKa4E"
         ),
         new Item(
-          "AC_ma_2016",
+          "m_AC_ma_2016",
           "Assassin's Creed",
           "Action",
           "1h 55m",
@@ -134,7 +122,7 @@ const component = {
           "https://www.youtube.com/watch?v=gfJVoF5ko1Y"
         ),
         new Item(
-          "V_sa_2013",
+          "s_V_sa_2013",
           "Vikings",
           "Action",
           "6 Seasons",
@@ -146,7 +134,7 @@ const component = {
           "https://www.youtube.com/watch?v=9GgxinPwAGc"
         ),
         new Item(
-          "DU_ma_2012",
+          "m_DU_ma_2012",
           "Django Unchained",
           "Action",
           "2h 45m",
@@ -159,19 +147,7 @@ const component = {
         ),
 
         new Item(
-          "S_mc_2001",
-          "Shrek",
-          "Comedy",
-          "1h 30m",
-          "PG 12",
-          "Shrek, an ogre, embarks on a journey with a donkey to rescue Princess Fiona from a vile lord and regain his swamp.",
-          "2001",
-          false,
-          "./src/images/shrek.jpg",
-          "https://www.youtube.com/watch?v=CwXOrWvPBPk"
-        ),
-        new Item(
-          "TO_sc_2005",
+          "s_TO_sc_2005",
           "The Office",
           "Comedy",
           "9 Seasons",
@@ -183,19 +159,19 @@ const component = {
           "https://www.youtube.com/watch?v=2iKZmRR9AR4"
         ),
         new Item(
-          "HR_mc_2007",
-          "Hot Rod",
+          "m_S_mc_2001",
+          "Shrek",
           "Comedy",
-          "1h 28m",
+          "1h 30m",
           "PG 12",
-          "Rod, a naif, slacker lives with his mother, brother and stepfather whose respect he craves. When his stepfather needs an operation, to raise funds, he plans to set a school-bus-jumping record.",
-          "2007",
+          "Shrek, an ogre, embarks on a journey with a donkey to rescue Princess Fiona from a vile lord and regain his swamp.",
+          "2001",
           false,
-          "./src/images/hot-rod.jpg",
-          "https://www.youtube.com/watch?v=yByhd7FAOug"
+          "./src/images/shrek.jpg",
+          "https://www.youtube.com/watch?v=CwXOrWvPBPk"
         ),
         new Item(
-          "FIFF_sc_2015",
+          "s_FIFF_sc_2015",
           "F is for Family",
           "Comedy",
           "5 Seasons",
@@ -207,19 +183,19 @@ const component = {
           "https://www.youtube.com/watch?v=f2AmK5QVtbg"
         ),
         new Item(
-          "KFH_mc_2004",
-          "Kung Fu Hustle",
+          "m_HR_mc_2007",
+          "Hot Rod",
           "Comedy",
-          "1h 38m",
-          "+16",
-          "An aspiring gangster pretends to be part of a notorious gang and tries to terrorise a neighbourhood. However, unknown to him, three martial arts experts live there and are ready to take him down.",
-          "2004",
+          "1h 28m",
+          "PG 12",
+          "Rod, a naif, slacker lives with his mother, brother and stepfather whose respect he craves. When his stepfather needs an operation, to raise funds, he plans to set a school-bus-jumping record.",
+          "2007",
           false,
-          "./src/images/kung-fu-hustle.jpg",
-          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+          "./src/images/hot-rod.jpg",
+          "https://www.youtube.com/watch?v=yByhd7FAOug"
         ),
         new Item(
-          "SF_sc_",
+          "s_SF_sc_2020",
           "Space Force",
           "Comedy",
           "2 Seasons",
@@ -230,9 +206,21 @@ const component = {
           "./src/images/space-force.jpg",
           "https://www.youtube.com/watch?v=bdpYpulGCKc"
         ),
+        new Item(
+          "m_KFH_mc_2004",
+          "Kung Fu Hustle",
+          "Comedy",
+          "1h 38m",
+          "+16",
+          "An aspiring gangster pretends to be part of a notorious gang and tries to terrorise a neighbourhood. However, unknown to him, three martial arts experts live there and are ready to take him down.",
+          "2004",
+          false,
+          "./src/images/kung-fu-hustle.jpg",
+          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+        ),
 
         new Item(
-          "GG_sr_2000",
+          "s_GG_sr_2000",
           "Gilmore Girls",
           "Romance",
           "7 Seasons",
@@ -244,7 +232,7 @@ const component = {
           "https://www.youtube.com/watch?v=HvbhPt0z4yE"
         ),
         new Item(
-          "DKM_mr_2021",
+          "m_DKM_mr_2021",
           "Don't Kill Me",
           "Romance",
           "1h 30m",
@@ -256,7 +244,7 @@ const component = {
           "https://www.youtube.com/watch?v=2iKZmRR9AR4"
         ),
         new Item(
-          "OMB_sr_2018",
+          "s_OMB_sr_2018",
           "On My Block",
           "Romance",
           "4 Seasons",
@@ -268,7 +256,7 @@ const component = {
           "https://www.youtube.com/watch?v=WlZvfarViqc"
         ),
         new Item(
-          "AWA_mr_2015",
+          "m_AWA_mr_2015",
           "A Whisker Away",
           "Romance",
           "1h 45m",
@@ -280,7 +268,7 @@ const component = {
           "https://www.youtube.com/watch?v=aXc9DVfLTGo"
         ),
         new Item(
-          "LN_sr_2020",
+          "s_LN_sr_2020",
           "Luna Nera",
           "Romance",
           "1 Season",
@@ -292,7 +280,7 @@ const component = {
           "https://www.youtube.com/watch?v=H4oLu4cP7h4"
         ),
         new Item(
-          "TPD_mr_2019",
+          "m_TPD_mr_2019",
           "Forrest Gump",
           "Romance",
           "2h 23m",
@@ -305,19 +293,7 @@ const component = {
         ),
 
         new Item(
-          "LPVA_mh_2015",
-          "Lake Placid Vs Anaconda",
-          "Horror",
-          "1h 31m",
-          "+16",
-          "Genetically modified anacondas and giant crocodiles escape captivity and enter a nearby lake. When the two massive creatures fight, the sheriff tries to prevent the town from being destroyed.",
-          "2015",
-          false,
-          "./src/images/lp-vs-a.jpg",
-          "https://www.youtube.com/watch?v=u_AIV9c0FWc"
-        ),
-        new Item(
-          "ST_sh_2016",
+          "s_ST_sh_2016",
           "Stranger Things",
           "Horror",
           "3 Seasons",
@@ -329,19 +305,19 @@ const component = {
           "https://www.youtube.com/watch?v=mnd7sFt5c3A"
         ),
         new Item(
-          "TCM_mh_2022",
-          "Texas Chainsaw Massacre",
+          "m_LPVA_mh_2015",
+          "Lake Placid Vs Anaconda",
           "Horror",
-          "1h 23m",
-          "+18",
-          "Influencers looking to breathe new life into a Texas ghost town encounter Leatherface, the legendary killer who wears a mask of human skin.",
-          "2022",
+          "1h 31m",
+          "+16",
+          "Genetically modified anacondas and giant crocodiles escape captivity and enter a nearby lake. When the two massive creatures fight, the sheriff tries to prevent the town from being destroyed.",
+          "2015",
           false,
-          "./src/images/texas-chainsaw-massacre.jpg",
-          "https://www.youtube.com/watch?v=zcI6SFiK_yk"
+          "./src/images/lp-vs-a.jpg",
+          "https://www.youtube.com/watch?v=u_AIV9c0FWc"
         ),
         new Item(
-          "TWD_sh_2010",
+          "s_TWD_sh_2010",
           "The Walking Dead",
           "Horror",
           "10 seasons",
@@ -353,19 +329,19 @@ const component = {
           "https://www.youtube.com/watch?v=R1v0uFms68U"
         ),
         new Item(
-          "H_mh_2016",
-          "Hush",
+          "m_TCM_mh_2022",
+          "Texas Chainsaw Massacre",
           "Horror",
-          "1h 21m",
-          "+16",
-          "A deaf writer who retreated into the woods to live a solitary life must fight for her life in silence when a masked killer appears in her window.",
-          "2016",
+          "1h 23m",
+          "+18",
+          "Influencers looking to breathe new life into a Texas ghost town encounter Leatherface, the legendary killer who wears a mask of human skin.",
+          "2022",
           false,
-          "./src/images/hush.jpg",
-          "https://www.youtube.com/watch?v=H4oLu4cP7h4"
+          "./src/images/texas-chainsaw-massacre.jpg",
+          "https://www.youtube.com/watch?v=zcI6SFiK_yk"
         ),
         new Item(
-          "AVED_sh_2015",
+          "s_AVED_sh_2015",
           "Ash vs Evil Dead",
           "Horror",
           "3 seasons",
@@ -375,6 +351,18 @@ const component = {
           false,
           "./src/images/ash-vs-evil-dead.jpg",
           "https://www.youtube.com/watch?v=-Yq3jeOmxSk"
+        ),
+        new Item(
+          "m_H_mh_2016",
+          "Hush",
+          "Horror",
+          "1h 21m",
+          "+16",
+          "A deaf writer who retreated into the woods to live a solitary life must fight for her life in silence when a masked killer appears in her window.",
+          "2016",
+          false,
+          "./src/images/hush.jpg",
+          "https://www.youtube.com/watch?v=H4oLu4cP7h4"
         ),
       ],
       // comingSoon: [],
