@@ -1,15 +1,5 @@
 class Item {
-  constructor(
-    id,
-    name,
-    genre,
-    comingSoon,
-    releaseDate,
-    poster,
-    trailer,
-    description,
-    preview
-  ) {
+  constructor(id, name, genre, comingSoon, releaseDate, poster, trailer, description, preview) {
     this.id = id;
     this.name = name;
     this.genre = genre;
