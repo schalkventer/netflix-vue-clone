@@ -296,7 +296,7 @@ const component = {
 
   <main>
     <section class="banner">
-      <video class="bg" autoplay muted>
+      <video class="bg" autoplay muted loop>
       <source src="./src/videos/thor-love-and-thunder.mp4" type="video/mp4">
       </video>
       <div class="content">
