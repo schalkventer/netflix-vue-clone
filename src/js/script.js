@@ -366,10 +366,7 @@ const component = {
     <p>© 2022-2022 Viswinkel, Ltd.</p>
   </footer>
   `,
-  mounted() {
-    // this.userArray = JSON.parse(localStorage.getItem(LOGGED_IN_USER_KEY));
-    // this.username = this.userArray[0]._username;
-  },
+  mounted() {},
 };
 
 window.addEventListener("DOMContentLoaded", () => {
