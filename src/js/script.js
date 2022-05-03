@@ -114,21 +114,20 @@ const component = {
           false,
           "03-03-2013",
           "./src/images/vikings.jpg",
-          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+          "https://www.youtube.com/watch?v=9GgxinPwAGc"
         ),
         new Item(
-          "PB_sa_2013",
+          "DU_ma_2012",
           "Django Unchained",
           "Action",
           false,
-          "23-12-2013",
+          "18-01-2012",
           "./src/images/django-unchained.jpg",
-          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+          "https://www.youtube.com/watch?v=_iH0UBYDI4g"
         ),
       ],
       visibleSlide: 0,
       userArray: [],
-      username: "",
       comingSoon: [],
     };
   },
