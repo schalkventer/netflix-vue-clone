@@ -183,27 +183,19 @@ const component = {
   </header>
 
   <main>
-  <section class="banner">
-  <img src="./src/images/kung-fu-hustle.jpg" class="bg" />
-  <div class="content">
-    <img src="./src/images/netflix.png" class="movieTitle" />
-    <p>fghfhfghfhffgffghfhfdhfdhfdhdfhfdhfdhfhffdhfdhhdfhgfdhdf</p>
-    <div class="buttons">
-      <button class="button play"><a :href="trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
-      <button class="button info" id="myBtn"><i class="fa fa-plus"></i> More info</button>
-    </div>
-  </div>
-</section>
-
-
-
-    <div id="content-grid">
-      <div class="container-heading">Coming Soon</div>
-      <div class="container">
-        <div class="box" v-for="(item, index) in comingSoonList" :key="item.id">
-          <img class="bg" v-bind:src="item.thumbnail" />
+    <section class="banner">
+      <img src="./src/images/kung-fu-hustle.jpg" class="bg" />
+      <div class="content">
+        <img src="./src/images/love-and-thunder.png" class="movieTitle" />
+        <p>Following the events of Avengers: Endgame, Thor attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Jane Foster—who has become the Mighty Thor—to stop Gorr the God Butcher from eliminating all gods.</p>
+        <div class="buttons">
+          <button class="button play"><a :href="trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
+          <button class="button info" id="myBtn"><i class="fa fa-plus"></i> More info</button>
         </div>
       </div>
+    </section>
+
+    <section id="content-grid">
 
       <div class="container-heading">Action</div>
       <div class="container">
@@ -218,9 +210,7 @@ const component = {
           <img class="bg" v-bind:src="item.thumbnail" />
         </div>
       </div> 
-    </div>
-
-    </div>
+    </section>
   </main>
 
   <footer>
