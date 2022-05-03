@@ -1,5 +1,17 @@
 class Item {
-  constructor(id, name, genre, runtime, rating, description, releaseDate, comingSoon, poster, trailer, preview) {
+  constructor(
+    id,
+    name,
+    genre,
+    runtime,
+    rating,
+    description,
+    releaseDate,
+    comingSoon,
+    poster,
+    trailer,
+    preview
+  ) {
     this.id = id;
     this.name = name;
     this.genre = genre;
@@ -27,7 +39,7 @@ const component = {
           "1h32m",
           "+13",
           "Following the events of Avengers: Endgame (2019), Thor attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Jane Foster who has become the Mighty Thor to stop Gorr the God Butcher from eliminating all gods.",
-          "08-07-2022",          
+          "08-07-2022",
           true,
           "./src/images/love-and-thunder.png",
           "https://www.youtube.com/watch?v=tgB1wUcmbbw",
@@ -54,7 +66,7 @@ const component = {
           "+13",
           "The future of mankind hangs in the balance as humans and dinosaurs coexist following the destruction of Isla Nublar.",
           "10-06-2022",
-          true, 
+          true,
           "./src/images/jurassic-world-3.png",
           "https://www.youtube.com/watch?v=fb5ELWi-ekk",
           "./src/videos/jurassic-world-dominion.mp4"
@@ -70,7 +82,7 @@ const component = {
           true,
           "./src/images/house-of-the-dragon.png",
           "https://www.youtube.com/watch?v=fNwwt25mheo",
-          "./src/videos/house-of-the-dragon.mp4",
+          "./src/videos/house-of-the-dragon.mp4"
         ),
 
         new Item(
@@ -83,7 +95,7 @@ const component = {
           "12-09-2013",
           false,
           "./src/images/peaky-blinders.jpg",
-          "https://www.youtube.com/watch?v=jImOqxQ0kkM",
+          "https://www.youtube.com/watch?v=jImOqxQ0kkM"
         ),
         new Item(
           "AOTD_ma_2021",
@@ -152,7 +164,7 @@ const component = {
           "Comedy",
           "1h 30m",
           "PG 12",
-          "When Django, a slave, is freed, he joins forces with a bounty hunter to rescue his wife, who has been enslaved by Calvin, a hard-hearted plantation owner.",
+          "Shrek, an ogre, embarks on a journey with a donkey to rescue Princess Fiona from a vile lord and regain his swamp.",
           "22-04-2001",
           false,
           "./src/images/shrek.jpg",
@@ -162,8 +174,11 @@ const component = {
           "TO_sc_2005",
           "The Office",
           "Comedy",
-          false,
+          "9 seasons",
+          "PG 12",
+          "A motley group of office workers go through hilarious misadventures at the Scranton, Pennsylvania, branch of the Dunder Mifflin Paper Company.",
           "24-03-2005",
+          false,
           "./src/images/the-office.jpg",
           "https://www.youtube.com/watch?v=2iKZmRR9AR4"
         ),
@@ -171,8 +186,11 @@ const component = {
           "HR_mc_2007",
           "Hot Rod",
           "Comedy",
-          false,
+          "1h 28m",
+          "PG 12",
+          "Rod, a naif, slacker lives with his mother, brother and stepfather whose respect he craves. When his stepfather needs an operation, to raise funds, he plans to set a school-bus-jumping record.",
           "03-08-2007",
+          false,
           "./src/images/hot-rod.jpg",
           "https://www.youtube.com/watch?v=yByhd7FAOug"
         ),
@@ -180,8 +198,11 @@ const component = {
           "FIFF_sc_2015",
           "F is for Family",
           "Comedy",
-          false,
+          "5 seasons",
+          "+16",
+          "Follow the Murphy family back to the 1970s, when kids roamed wild, beer flowed freely and nothing came between a man and his TV.",
           "18-12-2015",
+          false,
           "./src/images/f-is-for-family.jpg",
           "https://www.youtube.com/watch?v=f2AmK5QVtbg"
         ),
@@ -189,8 +210,11 @@ const component = {
           "KFH_mc_2004",
           "Kung Fu Hustle",
           "Comedy",
-          false,
+          "1h 38m",
+          "+16",
+          "An aspiring gangster pretends to be part of a notorious gang and tries to terrorise a neighbourhood. However, unknown to him, three martial arts experts live there and are ready to take him down.",
           "23-12-2004",
+          false,
           "./src/images/kung-fu-hustle.jpg",
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
