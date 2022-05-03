@@ -33,45 +33,45 @@ const component = {
           "https://www.youtube.com/watch?v=tgB1wUcmbbw",
           "./src/videos/thor-love-and-thunder.mp4"
         ),
-        new Item(
-          "s_OBK_ns_2022",
-          "Obi-Wan Kenobi",
-          "New",
-          "1 Season",
-          "+13",
-          "The Jedi Master contends with the consequences of his greatest defeat the downfall and corruption of his one-time friend and apprentice, Anakin Skywalker, who turned to the dark side as evil Sith Lord Darth Vader.",
-          "07-05-2022",
-          true,
-          "./src/images/obi-wan-kenobi.png",
-          "https://www.youtube.com/watch?v=TWTfhyvzTx0",
-          "./src/videos/obi-wan.mp4"
-        ),
-        new Item(
-          "m_JWD_nm_2022",
-          "Jurassic World Dominion",
-          "New",
-          "1h32m",
-          "+13",
-          "The future of mankind hangs in the balance as humans and dinosaurs coexist following the destruction of Isla Nublar.",
-          "10-06-2022",
-          true,
-          "./src/images/jurassic-world-3.png",
-          "https://www.youtube.com/watch?v=fb5ELWi-ekk",
-          "./src/videos/jurassic-world-dominion.mp4"
-        ),
-        new Item(
-          "s_HOTD_ns_2022",
-          "House of the Dragon",
-          "New",
-          "1 Season",
-          "+13",
-          "Set two hundred years before the events of Game of Thrones, the series chronicles the beginning of the end of House Targaryen, the events leading up to the Targaryen civil war, known as the 'Dance of the Dragons', and the war itself.",
-          "21-08-2022",
-          true,
-          "./src/images/house-of-the-dragon.png",
-          "https://www.youtube.com/watch?v=fNwwt25mheo",
-          "./src/videos/house-of-the-dragon.mp4"
-        ),
+        // new Item(
+        //   "s_OBK_ns_2022",
+        //   "Obi-Wan Kenobi",
+        //   "New",
+        //   "1 Season",
+        //   "+13",
+        //   "The Jedi Master contends with the consequences of his greatest defeat the downfall and corruption of his one-time friend and apprentice, Anakin Skywalker, who turned to the dark side as evil Sith Lord Darth Vader.",
+        //   "07-05-2022",
+        //   true,
+        //   "./src/images/obi-wan-kenobi.png",
+        //   "https://www.youtube.com/watch?v=TWTfhyvzTx0",
+        //   "./src/videos/obi-wan.mp4"
+        // ),
+        // new Item(
+        //   "m_JWD_nm_2022",
+        //   "Jurassic World Dominion",
+        //   "New",
+        //   "1h32m",
+        //   "+13",
+        //   "The future of mankind hangs in the balance as humans and dinosaurs coexist following the destruction of Isla Nublar.",
+        //   "10-06-2022",
+        //   true,
+        //   "./src/images/jurassic-world-3.png",
+        //   "https://www.youtube.com/watch?v=fb5ELWi-ekk",
+        //   "./src/videos/jurassic-world-dominion.mp4"
+        // ),
+        // new Item(
+        //   "s_HOTD_ns_2022",
+        //   "House of the Dragon",
+        //   "New",
+        //   "1 Season",
+        //   "+13",
+        //   "Set two hundred years before the events of Game of Thrones, the series chronicles the beginning of the end of House Targaryen, the events leading up to the Targaryen civil war, known as the 'Dance of the Dragons', and the war itself.",
+        //   "21-08-2022",
+        //   true,
+        //   "./src/images/house-of-the-dragon.png",
+        //   "https://www.youtube.com/watch?v=fNwwt25mheo",
+        //   "./src/videos/house-of-the-dragon.mp4"
+        // ),
 
         new Item(
           "s_PB_sa_2013",
@@ -441,29 +441,29 @@ const component = {
     <section id="content-grid">
       <div class="container-heading">Action</div>
       <div class="container">
-        <div class="box" v-for="(item, index) in actionList" :key="item.id">
-          <img class="bg" v-bind:src="item.poster" />
+        <div class="box" v-for="(item, index) in actionList" :id="item.id">
+          <img class="bg" :src="item.poster" />
         </div>
       </div> 
 
       <div class="container-heading">Comedy</div>
       <div class="container">
-        <div class="box" v-for="(item, index) in comedyList" :key="item.id">
-          <img class="bg" v-bind:src="item.poster" />
+        <div class="box" v-for="(item, index) in comedyList" :id="item.id">
+          <img class="bg" :src="item.poster" />
         </div>
       </div>
 
       <div class="container-heading">Romance</div>
       <div class="container">
-        <div class="box" v-for="(item, index) in romanceList" :key="item.id">
-          <img class="bg" v-bind:src="item.poster" />
+        <div class="box" v-for="(item, index) in romanceList" :id="item.id">
+          <img class="bg" :src="item.poster" />
         </div>
       </div>
 
       <div class="container-heading">Horror</div>
       <div class="container">
-        <div class="box" v-for="(item, index) in horrorList" :key="item.id">
-          <img class="bg" v-bind:src="item.poster" />
+        <div class="box" v-for="(item, index) in horrorList" :id="item.id">
+          <img class="bg" :src="item.poster" />
         </div>
       </div>
     </section>
