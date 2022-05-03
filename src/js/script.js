@@ -429,3 +429,4 @@ window.addEventListener("DOMContentLoaded", () => {
   const app = createApp(component);
   app.mount("#app");
 });
+
