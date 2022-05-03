@@ -29,7 +29,17 @@ const component = {
           "Following the events of Avengers: Endgame (2019), Thor attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Jane Foster who has become the Mighty Thor to stop Gorr the God Butcher from eliminating all gods.",
           "./src/videos/thor-love-and-thunder.mp4"
         ),
-
+        new Item(
+          "OBK_ns_2022",
+          "Obi-Wan Kenobi",
+          "New",
+          true,
+          "07-05-2022",
+          "./src/images/obi-wan-kenobi.png",
+          "https://www.youtube.com/watch?v=TWTfhyvzTx0",
+          "The Jedi Master contends with the consequences of his greatest defeat -- the downfall and corruption of his one-time friend and apprentice, Anakin Skywalker, who turned to the dark side as evil Sith Lord Darth Vader.",
+          "./src/videos/obi-wan.mp4"
+        ),
         new Item(
           "JWD_nm_2022",
           "Jurassic World Dominion",
