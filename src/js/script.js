@@ -87,29 +87,29 @@ const component = {
         ),
         new Item(
           "PB_sa_2013",
-          "Peaky Blinders",
+          "Love, Death & Robots",
           "Action",
           false,
           "23-12-2013",
-          "./src/images/peaky-blinders.jpg",
+          "./src/images/love-death-robots.jpg",
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
         new Item(
           "PB_sa_2013",
-          "Peaky Blinders",
+          "Assassin's Creed",
           "Action",
           false,
           "23-12-2013",
-          "./src/images/peaky-blinders.jpg",
+          "./src/images/assassins-creed.jpg",
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
         new Item(
           "PB_sa_2013",
-          "Peaky Blinders",
+          "Vikings",
           "Action",
           false,
           "23-12-2013",
-          "./src/images/peaky-blinders.jpg",
+          "./src/images/vikings.jpg",
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
         
