@@ -31,6 +31,18 @@ const component = {
         ),
 
         new Item(
+          "JWD_nm_2022",
+          "Jurassic World Dominion",
+          "New",
+          true,
+          "10-06-2022",
+          "./src/images/jurassic-world-3.png",
+          "https://www.youtube.com/watch?v=fb5ELWi-ekk",
+          "The future of mankind hangs in the balance as humans and dinosaurs coexist following the destruction of Isla Nublar.",
+          "./src/videos/jurassic-world-dominion.mp4"
+        ),
+
+        new Item(
           "PB_sa_2013",
           "Peaky Blinders",
           "Action",
@@ -311,20 +323,19 @@ const component = {
   <main>
     <section class="banner" v-for="(item, index) in comingSoonList">
       <video class="bg" autoplay muted loop>
-      <source src="./src/videos/thor-love-and-thunder.mp4" type="video/mp4">
+      <source :src="item.preview" type="video/mp4">
       </video>
       <div class="content">
         <img :src="item.poster" class="movieTitle" />
         <p>{{ item.description }}</p>
         <div class="buttons">
-          <button class="button play"><i class="fa fa-play"></i> Play</a></button>
+          <button class="button play"><a :href="item.trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
           <button class="button info" id="myBtn"><i class="fa fa-plus"></i> More info</button>
         </div>
       </div>
     </section>
 
     <section id="content-grid">
-
       <div class="container-heading">Action</div>
       <div class="container">
         <div class="box" v-for="(item, index) in actionList" :key="item.id">
