@@ -1,12 +1,12 @@
 class Item {
-  constructor(id, itemName, genre, comingSoon, availDate, thumbNail, preview) {
+  constructor(id, name, genre, comingSoon, releaseDate, poster, trailer) {
     this.id = id;
-    this.name = itemName;
+    this.name = name;
     this.genre = genre;
     this.comingSoon = comingSoon;
-    this.availDate = availDate;
-    this.thumbnail = thumbNail;
-    this.preview = preview;
+    this.releaseDate = releaseDate;
+    this.poster = poster;
+    this.trailer = trailer;
   }
 }
 
@@ -236,9 +236,7 @@ const component = {
           "https://www.youtube.com/watch?v=-Yq3jeOmxSk"
         ),
       ],
-      visibleSlide: 0,
-      userArray: [],
-      comingSoon: [],
+      // comingSoon: [],
     };
   },
 
@@ -316,28 +314,28 @@ const component = {
       <div class="container-heading">Action</div>
       <div class="container">
         <div class="box" v-for="(item, index) in actionList" :key="item.id">
-          <img class="bg" v-bind:src="item.thumbnail" />
+          <img class="bg" v-bind:src="item.poster" />
         </div>
       </div> 
 
       <div class="container-heading">Comedy</div>
       <div class="container">
         <div class="box" v-for="(item, index) in comedyList" :key="item.id">
-          <img class="bg" v-bind:src="item.thumbnail" />
+          <img class="bg" v-bind:src="item.poster" />
         </div>
       </div>
 
       <div class="container-heading">Romance</div>
       <div class="container">
         <div class="box" v-for="(item, index) in romanceList" :key="item.id">
-          <img class="bg" v-bind:src="item.thumbnail" />
+          <img class="bg" v-bind:src="item.poster" />
         </div>
       </div>
 
       <div class="container-heading">Horror</div>
       <div class="container">
         <div class="box" v-for="(item, index) in horrorList" :key="item.id">
-          <img class="bg" v-bind:src="item.thumbnail" />
+          <img class="bg" v-bind:src="item.poster" />
         </div>
       </div>
     </section>
