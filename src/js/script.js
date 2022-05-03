@@ -26,7 +26,7 @@ const component = {
           "New",
           "1h32m",
           "+13",
-          "Following the events of Avengers: Endgame (2019), Thor attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Jane Foster who has become the Mighty Thor to stop Gorr the God Butcher from eliminating all gods.",
+          "Following the events of Avengers: Endgame, Thor attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Jane Foster who has become the Mighty Thor to stop Gorr the God Butcher from eliminating all gods.",
           "08-07-2022",
           true,
           "./src/images/love-and-thunder.png",
@@ -433,7 +433,7 @@ const component = {
         <p>{{ item.description }}</p>
         <div class="buttons">
           <button class="button play"><a :href="item.trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
-          <button class="button info" id="myBtn"><i class="fa fa-plus"></i> More info</button>
+          <button class="button info" id="myBtn"><i class="fa fa-plus"></i> More Info</button>
         </div>
       </div>
     </section>
