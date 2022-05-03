@@ -25,7 +25,6 @@ const component = {
           "./src/images/shrek.jpg",
           "https://www.youtube.com/watch?v=CwXOrWvPBPk"
         ),
-
         new Item(
           "TO_sc_2005",
           "The Office",
@@ -35,7 +34,6 @@ const component = {
           "./src/images/the-office.jpg",
           "https://www.youtube.com/watch?v=2iKZmRR9AR4"
         ),
-
         new Item(
           "HR_mc_2007",
           "Hot Rod",
@@ -45,7 +43,6 @@ const component = {
           "./src/images/hot-rod.jpg",
           "https://www.youtube.com/watch?v=yByhd7FAOug"
         ),
-
         new Item(
           "FIFF_sc_2015",
           "F is for Family",
@@ -55,7 +52,6 @@ const component = {
           "./src/images/f-is-for-family.jpg",
           "https://www.youtube.com/watch?v=f2AmK5QVtbg"
         ),
-
         new Item(
           "KFH_mc_2004",
           "Kung Fu Hustle",
@@ -65,7 +61,6 @@ const component = {
           "./src/images/kung-fu-hustle.jpg",
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
-
         new Item(
           "SF_sc_",
           "Space Force",
@@ -81,11 +76,10 @@ const component = {
           "Peaky Blinders",
           "Action",
           false,
-          "23-12-2013",
+          "12-09-2013",
           "./src/images/peaky-blinders.jpg",
-          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+          "https://www.youtube.com/watch?v=jImOqxQ0kkM"
         ),
-
         new Item(
           "AOTD_ma_2021",
           "Army of the Dead",
@@ -96,13 +90,13 @@ const component = {
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
         new Item(
-          "PB_sa_2013",
-          "Love, Death & Robots",
+          "LDR_sa_",
+          "Love, Death + Robots",
           "Action",
           false,
-          "23-12-2013",
+          "15-03-2019",
           "./src/images/love-death-robots.jpg",
-          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+          "https://www.youtube.com/watch?v=wUFwunMKa4E"
         ),
         new Item(
           "PB_sa_2013",
@@ -131,7 +125,6 @@ const component = {
           "./src/images/django-unchained.jpg",
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
-        
       ],
       visibleSlide: 0,
       userArray: [],
@@ -250,4 +243,3 @@ window.addEventListener("DOMContentLoaded", () => {
   const app = createApp(component);
   app.mount("#app");
 });
-
