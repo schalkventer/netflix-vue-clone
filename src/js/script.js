@@ -90,7 +90,7 @@ const component = {
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
         new Item(
-          "LDR_sa_",
+          "LDR_sa_2019",
           "Love, Death + Robots",
           "Action",
           false,
@@ -99,20 +99,20 @@ const component = {
           "https://www.youtube.com/watch?v=wUFwunMKa4E"
         ),
         new Item(
-          "PB_sa_2013",
+          "AC_ma_2016",
           "Assassin's Creed",
           "Action",
           false,
-          "23-12-2013",
+          "21-12-2016",
           "./src/images/assassins-creed.jpg",
-          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+          "https://www.youtube.com/watch?v=gfJVoF5ko1Y"
         ),
         new Item(
-          "PB_sa_2013",
+          "V_sa_2013",
           "Vikings",
           "Action",
           false,
-          "23-12-2013",
+          "03-03-2013",
           "./src/images/vikings.jpg",
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
