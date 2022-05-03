@@ -172,13 +172,6 @@ const component = {
         </div>
       </div>
 
-      <div class="container-heading">Available</div>
-      <div class="container">
-        <div class="box" v-for="(item, index) in availableList" :key="item.id">
-          <img class="bg" v-bind:src="item.thumbnail" />
-        </div>
-      </div>
-
       <div class="container-heading">Action</div>
       <div class="container">
         <div class="box" v-for="(item, index) in actionList" :key="item.id">
