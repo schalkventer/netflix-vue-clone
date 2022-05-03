@@ -180,6 +180,61 @@ const component = {
           "./src/images/the-perfect-date.jpg",
           "https://www.youtube.com/watch?v=Hld-7oBn3Rk"
         ),
+
+        new Item(
+          "LPVA_mh_2015",
+          "Lake Placid Vs Anaconda",
+          "Horror",
+          false,
+          "25-04-2015",
+          "./src/images/lp-vs-a.jpg",
+          "https://www.youtube.com/watch?v=u_AIV9c0FWc"
+        ),
+        new Item(
+          "ST_sh_2016",
+          "Stranger Things",
+          "Horror",
+          false,
+          "15-06-2016",
+          "./src/images/stranger-things.jpg",
+          "https://www.youtube.com/watch?v=mnd7sFt5c3A"
+        ),
+        new Item(
+          "TCM_mh_2022",
+          "Texas Chainsaw Massacre",
+          "Horror",
+          false,
+          "18-02-2022",
+          "./src/images/texas-chainsaw-massacre.jpg",
+          "https://www.youtube.com/watch?v=zcI6SFiK_yk"
+        ),
+        new Item(
+          "AWA_sh_2015",
+          "A Whisker Away",
+          "Horror",
+          false,
+          "18-06-2020",
+          "./src/images/texas-chainsaw-massacre.jpg",
+          "https://www.youtube.com/watch?v=aXc9DVfLTGo"
+        ),
+        new Item(
+          "LN_sh_2020",
+          "Luna Nera",
+          "Horror",
+          false,
+          "31-01-2020",
+          "./src/images/luna-nera.jpg",
+          "https://www.youtube.com/watch?v=H4oLu4cP7h4"
+        ),
+        new Item(
+          "TPD_mh_2019",
+          "The Prefect Date",
+          "Horror",
+          false,
+          "12-04-2019",
+          "./src/images/the-perf.jpg",
+          "https://www.youtube.com/watch?v=Hld-7oBn3Rk"
+        ),
       ],
       visibleSlide: 0,
       userArray: [],
@@ -215,6 +270,12 @@ const component = {
     romanceList() {
       return this.itemList.filter((item) => {
         return item.genre === "Romance";
+      });
+    },
+
+    horrorList() {
+      return this.itemList.filter((item) => {
+        return item.genre === "Horror";
       });
     },
   },
@@ -275,7 +336,7 @@ const component = {
 
       <div class="container-heading">Horror</div>
       <div class="container">
-        <div class="box" v-for="(item, index) in romanceList" :key="item.id">
+        <div class="box" v-for="(item, index) in horrorList" :key="item.id">
           <img class="bg" v-bind:src="item.thumbnail" />
         </div>
       </div>
@@ -308,8 +369,8 @@ const component = {
   </footer>
   `,
   mounted() {
-    this.userArray = JSON.parse(localStorage.getItem(LOGGED_IN_USER_KEY));
-    this.username = this.userArray[0]._username;
+    // this.userArray = JSON.parse(localStorage.getItem(LOGGED_IN_USER_KEY));
+    // this.username = this.userArray[0]._username;
   },
 };
 
