@@ -209,31 +209,31 @@ const component = {
           "https://www.youtube.com/watch?v=zcI6SFiK_yk"
         ),
         new Item(
-          "AWA_sh_2015",
-          "A Whisker Away",
+          "TWD_sh_2010",
+          "The Walking Dead",
           "Horror",
           false,
-          "18-06-2020",
-          "./src/images/texas-chainsaw-massacre.jpg",
-          "https://www.youtube.com/watch?v=aXc9DVfLTGo"
+          "31-10-2010",
+          "./src/images/walking-dead.jpg",
+          "https://www.youtube.com/watch?v=R1v0uFms68U"
         ),
         new Item(
-          "LN_sh_2020",
-          "Luna Nera",
+          "H_mh_2016",
+          "Hush",
           "Horror",
           false,
-          "31-01-2020",
-          "./src/images/luna-nera.jpg",
+          "12-03-2016",
+          "./src/images/hush.jpg",
           "https://www.youtube.com/watch?v=H4oLu4cP7h4"
         ),
         new Item(
-          "TPD_mh_2019",
-          "The Prefect Date",
+          "AVED_sh_2015",
+          "Ash vs Evil Dead",
           "Horror",
           false,
-          "12-04-2019",
-          "./src/images/the-perf.jpg",
-          "https://www.youtube.com/watch?v=Hld-7oBn3Rk"
+          "31-10-2015",
+          "./src/images/ash-vs-evil-dead.jpg",
+          "https://www.youtube.com/watch?v=-Yq3jeOmxSk"
         ),
       ],
       visibleSlide: 0,
