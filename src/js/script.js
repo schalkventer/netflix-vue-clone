@@ -1,5 +1,15 @@
 class Item {
-  constructor(id, name, genre, comingSoon, releaseDate, poster, trailer, description, preview) {
+  constructor(
+    id,
+    name,
+    genre,
+    comingSoon,
+    releaseDate,
+    poster,
+    trailer,
+    description,
+    preview
+  ) {
     this.id = id;
     this.name = name;
     this.genre = genre;
@@ -50,6 +60,17 @@ const component = {
           "https://www.youtube.com/watch?v=fb5ELWi-ekk",
           "The future of mankind hangs in the balance as humans and dinosaurs coexist following the destruction of Isla Nublar.",
           "./src/videos/jurassic-world-dominion.mp4"
+        ),
+        new Item(
+          "HOTD_ns_2022",
+          "House of the Dragon",
+          "New",
+          true,
+          "21-08-2022",
+          "./src/images/house-of-the-dragon.png",
+          "https://www.youtube.com/watch?v=fNwwt25mheo",
+          "Set two hundred years before the events of Game of Thrones, the series chronicles the beginning of the end of House Targaryen, the events leading up to the Targaryen civil war, known as the 'Dance of the Dragons', and the war itself.",
+          "./src/videos/house-of-the-dragon.mp4"
         ),
 
         new Item(
