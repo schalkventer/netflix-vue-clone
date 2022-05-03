@@ -1,5 +1,5 @@
 class Item {
-  constructor(id, name, genre, comingSoon, releaseDate, poster, trailer) {
+  constructor(id, name, genre, comingSoon, releaseDate, poster, trailer, description, preview) {
     this.id = id;
     this.name = name;
     this.genre = genre;
@@ -7,6 +7,8 @@ class Item {
     this.releaseDate = releaseDate;
     this.poster = poster;
     this.trailer = trailer;
+    this.description = description;
+    this.preview = preview;
   }
 }
 
@@ -16,6 +18,18 @@ const component = {
   data() {
     return {
       itemList: [
+        new Item(
+          "TLAT_nm_2022",
+          "Thor Love and Thunder",
+          "New",
+          true,
+          "08-07-2022",
+          "./src/images/love-and-thunder.png",
+          "https://www.youtube.com/watch?v=tgB1wUcmbbw",
+          "Following the events of Avengers: Endgame (2019), Thor attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Jane Foster who has become the Mighty Thor to stop Gorr the God Butcher from eliminating all gods.",
+          "./src/videos/thor-love-and-thunder.mp4"
+        ),
+
         new Item(
           "PB_sa_2013",
           "Peaky Blinders",
@@ -295,13 +309,13 @@ const component = {
   </header>
 
   <main>
-    <section class="banner">
+    <section class="banner" v-for="(item, index) in comingSoonList">
       <video class="bg" autoplay muted loop>
       <source src="./src/videos/thor-love-and-thunder.mp4" type="video/mp4">
       </video>
       <div class="content">
-        <img src="./src/images/love-and-thunder.png" class="movieTitle" />
-        <p>Following the events of Avengers: Endgame, Thor attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Jane Foster who has become the Mighty Thor to stop Gorr the God Butcher from eliminating all gods.</p>
+        <img :src="item.poster" class="movieTitle" />
+        <p>{{ item.description }}</p>
         <div class="buttons">
           <button class="button play"><i class="fa fa-play"></i> Play</a></button>
           <button class="button info" id="myBtn"><i class="fa fa-plus"></i> More info</button>
