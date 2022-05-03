@@ -17,6 +17,61 @@ const component = {
     return {
       itemList: [
         new Item(
+          "PB_sa_2013",
+          "Peaky Blinders",
+          "Action",
+          false,
+          "12-09-2013",
+          "./src/images/peaky-blinders.jpg",
+          "https://www.youtube.com/watch?v=jImOqxQ0kkM"
+        ),
+        new Item(
+          "AOTD_ma_2021",
+          "Army of the Dead",
+          "Action",
+          false,
+          "23-12-2013",
+          "./src/images/army-of-the-dead.jpg",
+          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+        ),
+        new Item(
+          "LDR_sa_2019",
+          "Love, Death + Robots",
+          "Action",
+          false,
+          "15-03-2019",
+          "./src/images/love-death-robots.jpg",
+          "https://www.youtube.com/watch?v=wUFwunMKa4E"
+        ),
+        new Item(
+          "AC_ma_2016",
+          "Assassin's Creed",
+          "Action",
+          false,
+          "21-12-2016",
+          "./src/images/assassins-creed.jpg",
+          "https://www.youtube.com/watch?v=gfJVoF5ko1Y"
+        ),
+        new Item(
+          "V_sa_2013",
+          "Vikings",
+          "Action",
+          false,
+          "03-03-2013",
+          "./src/images/vikings.jpg",
+          "https://www.youtube.com/watch?v=9GgxinPwAGc"
+        ),
+        new Item(
+          "DU_ma_2012",
+          "Django Unchained",
+          "Action",
+          false,
+          "18-01-2012",
+          "./src/images/django-unchained.jpg",
+          "https://www.youtube.com/watch?v=_iH0UBYDI4g"
+        ),
+
+        new Item(
           "S_mc_2001",
           "Shrek",
           "Comedy",
@@ -72,58 +127,58 @@ const component = {
         ),
 
         new Item(
-          "PB_sa_2013",
-          "Peaky Blinders",
-          "Action",
+          "GG_sr_2000",
+          "Gilmore Girls",
+          "Romance",
           false,
-          "12-09-2013",
-          "./src/images/peaky-blinders.jpg",
-          "https://www.youtube.com/watch?v=jImOqxQ0kkM"
+          "05-10-2000",
+          "./src/images/gilmore-girls.jpg",
+          "https://www.youtube.com/watch?v=HvbhPt0z4yE"
         ),
         new Item(
-          "AOTD_ma_2021",
-          "Army of the Dead",
-          "Action",
+          "TO_sc_2005",
+          "The Office",
+          "Romance",
           false,
-          "23-12-2013",
-          "./src/images/army-of-the-dead.jpg",
+          "24-03-2005",
+          "./src/images/the-office.jpg",
+          "https://www.youtube.com/watch?v=2iKZmRR9AR4"
+        ),
+        new Item(
+          "HR_mc_2007",
+          "Hot Rod",
+          "Romance",
+          false,
+          "03-08-2007",
+          "./src/images/hot-rod.jpg",
+          "https://www.youtube.com/watch?v=yByhd7FAOug"
+        ),
+        new Item(
+          "FIFF_sc_2015",
+          "F is for Family",
+          "Romance",
+          false,
+          "18-12-2015",
+          "./src/images/f-is-for-family.jpg",
+          "https://www.youtube.com/watch?v=f2AmK5QVtbg"
+        ),
+        new Item(
+          "KFH_mc_2004",
+          "Kung Fu Hustle",
+          "Romance",
+          false,
+          "23-12-2004",
+          "./src/images/kung-fu-hustle.jpg",
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
         new Item(
-          "LDR_sa_2019",
-          "Love, Death + Robots",
-          "Action",
+          "SF_sc_",
+          "Space Force",
+          "Romance",
           false,
-          "15-03-2019",
-          "./src/images/love-death-robots.jpg",
-          "https://www.youtube.com/watch?v=wUFwunMKa4E"
-        ),
-        new Item(
-          "AC_ma_2016",
-          "Assassin's Creed",
-          "Action",
-          false,
-          "21-12-2016",
-          "./src/images/assassins-creed.jpg",
-          "https://www.youtube.com/watch?v=gfJVoF5ko1Y"
-        ),
-        new Item(
-          "V_sa_2013",
-          "Vikings",
-          "Action",
-          false,
-          "03-03-2013",
-          "./src/images/vikings.jpg",
-          "https://www.youtube.com/watch?v=9GgxinPwAGc"
-        ),
-        new Item(
-          "DU_ma_2012",
-          "Django Unchained",
-          "Action",
-          false,
-          "18-01-2012",
-          "./src/images/django-unchained.jpg",
-          "https://www.youtube.com/watch?v=_iH0UBYDI4g"
+          "29-05-2020",
+          "./src/images/spaceforce.jpg",
+          "https://www.youtube.com/watch?v=bdpYpulGCKc"
         ),
       ],
       visibleSlide: 0,
@@ -154,6 +209,12 @@ const component = {
     comedyList() {
       return this.itemList.filter((item) => {
         return item.genre === "Comedy";
+      });
+    },
+
+    romanceList() {
+      return this.itemList.filter((item) => {
+        return item.genre === "Romance";
       });
     },
   },
@@ -203,7 +264,14 @@ const component = {
         <div class="box" v-for="(item, index) in comedyList" :key="item.id">
           <img class="bg" v-bind:src="item.thumbnail" />
         </div>
-      </div> 
+      </div>
+
+      <div class="container-heading">Romance</div>
+      <div class="container">
+        <div class="box" v-for="(item, index) in romanceList" :key="item.id">
+          <img class="bg" v-bind:src="item.thumbnail" />
+        </div>
+      </div>
     </section>
   </main>
 
