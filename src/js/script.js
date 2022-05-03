@@ -92,7 +92,7 @@ const component = {
           "6 Seasons",
           "+18",
           "Tommy Shelby, a dangerous man, leads the Peaky Blinders, a gang based in Birmingham. Soon, Chester Campbell, an inspector, decides to nab him and put an end to the criminal activities.",
-          "12-09-2013",
+          "2013",
           false,
           "./src/images/peaky-blinders.jpg",
           "https://www.youtube.com/watch?v=jImOqxQ0kkM"
@@ -104,7 +104,7 @@ const component = {
           "2h 28m",
           "+18",
           "After a zombie outbreak in Las Vegas, a group of mercenaries take the ultimate gamble and venture into the quarantine zone in hopes of pulling off an impossible heist.",
-          "23-12-2013",
+          "2013",
           false,
           "./src/images/army-of-the-dead.jpg",
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
@@ -116,7 +116,7 @@ const component = {
           "2 Seasons",
           "+18",
           "This collection of animated short stories spans several genres, including science fiction, fantasy, horror and comedy. World-class animation creators bring captivating stories to life in the form of a unique and visceral viewing experience.",
-          "15-03-2019",
+          "2019",
           false,
           "./src/images/love-death-robots.jpg",
           "https://www.youtube.com/watch?v=wUFwunMKa4E"
@@ -128,7 +128,7 @@ const component = {
           "1h 55m",
           "+13",
           "With the help of technology, Callum learns that he is a descendant of a dangerous society. He travels back in time to learn about his ancestors and acquire skills to defeat an evil organisation.",
-          "21-12-2016",
+          "2016",
           false,
           "./src/images/assassins-creed.jpg",
           "https://www.youtube.com/watch?v=gfJVoF5ko1Y"
@@ -140,7 +140,7 @@ const component = {
           "6 Seasons",
           "+18",
           "Ragnar Lothbrok, a legendary Norse hero, is a mere farmer who rises up to become a fearless warrior and commander of the Viking tribes with the support of his equally ferocious family.",
-          "03-03-2013",
+          "2013",
           false,
           "./src/images/vikings.jpg",
           "https://www.youtube.com/watch?v=9GgxinPwAGc"
@@ -152,7 +152,7 @@ const component = {
           "2h 45m",
           "+16",
           "When Django, a slave, is freed, he joins forces with a bounty hunter to rescue his wife, who has been enslaved by Calvin, a hard-hearted plantation owner.",
-          "18-01-2012",
+          "2012",
           false,
           "./src/images/django-unchained.jpg",
           "https://www.youtube.com/watch?v=_iH0UBYDI4g"
@@ -165,7 +165,7 @@ const component = {
           "1h 30m",
           "PG 12",
           "Shrek, an ogre, embarks on a journey with a donkey to rescue Princess Fiona from a vile lord and regain his swamp.",
-          "22-04-2001",
+          "2001",
           false,
           "./src/images/shrek.jpg",
           "https://www.youtube.com/watch?v=CwXOrWvPBPk"
@@ -177,7 +177,7 @@ const component = {
           "9 Seasons",
           "PG 12",
           "A motley group of office workers go through hilarious misadventures at the Scranton, Pennsylvania, branch of the Dunder Mifflin Paper Company.",
-          "24-03-2005",
+          "2005",
           false,
           "./src/images/the-office.jpg",
           "https://www.youtube.com/watch?v=2iKZmRR9AR4"
@@ -189,7 +189,7 @@ const component = {
           "1h 28m",
           "PG 12",
           "Rod, a naif, slacker lives with his mother, brother and stepfather whose respect he craves. When his stepfather needs an operation, to raise funds, he plans to set a school-bus-jumping record.",
-          "03-08-2007",
+          "2007",
           false,
           "./src/images/hot-rod.jpg",
           "https://www.youtube.com/watch?v=yByhd7FAOug"
@@ -201,7 +201,7 @@ const component = {
           "5 Seasons",
           "+16",
           "Follow the Murphy family back to the 1970s, when kids roamed wild, beer flowed freely and nothing came between a man and his TV.",
-          "18-12-2015",
+          "2015",
           false,
           "./src/images/f-is-for-family.jpg",
           "https://www.youtube.com/watch?v=f2AmK5QVtbg"
@@ -213,7 +213,7 @@ const component = {
           "1h 38m",
           "+16",
           "An aspiring gangster pretends to be part of a notorious gang and tries to terrorise a neighbourhood. However, unknown to him, three martial arts experts live there and are ready to take him down.",
-          "23-12-2004",
+          "2004",
           false,
           "./src/images/kung-fu-hustle.jpg",
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
@@ -225,7 +225,7 @@ const component = {
           "2 Seasons",
           "+13",
           "A group of people are tasked with establishing the U.S. Space Force.",
-          "29-05-2020",
+          "2020",
           false,
           "./src/images/space-force.jpg",
           "https://www.youtube.com/watch?v=bdpYpulGCKc"
@@ -238,7 +238,7 @@ const component = {
           "7 Seasons",
           "+13",
           "Lorelai Gilmore, an independent young woman, shares a close bond with her wilful daughter, Rory. However, her relationship with her own mother is strained.",
-          "05-10-2000",
+          "2000",
           false,
           "./src/images/gilmore-girls.jpg",
           "https://www.youtube.com/watch?v=HvbhPt0z4yE"
@@ -250,7 +250,7 @@ const component = {
           "1h 30m",
           "+16",
           "After Mirta dies of a drug overdose with her lover, she resuscitates alone and discovers she's part of a violent world she never knew existed.",
-          "21-04-2021",
+          "2021",
           false,
           "./src/images/dont-kill-me.jpg",
           "https://www.youtube.com/watch?v=2iKZmRR9AR4"
@@ -262,7 +262,7 @@ const component = {
           "4 Seasons",
           "+13",
           "In a rough Los Angeles neighborhood, four smart, funny and streetwise teens find their lifelong friendship tested as they begin high school. Watch Chapter One.",
-          "16-03-2018",
+          "2018",
           false,
           "./src/images/on-my-block.jpg",
           "https://www.youtube.com/watch?v=WlZvfarViqc"
@@ -274,7 +274,7 @@ const component = {
           "1h 45m",
           "PG",
           "Secretly in love with her classmate Kento, Miyo takes the help of a mysterious mask and transforms into a cat to get closer to him. However, trouble ensues when she begins to lose herself.",
-          "18-06-2020",
+          "2020",
           false,
           "./src/images/a-whisker-away.jpg",
           "https://www.youtube.com/watch?v=aXc9DVfLTGo"
@@ -286,21 +286,21 @@ const component = {
           "1 Season",
           "+16",
           "In 17th-century Italy, a teenage midwife accused of witchcraft must choose between fulfilling her powerful destiny and a star-crossed love.",
-          "31-01-2020",
+          "2020",
           false,
           "./src/images/luna-nera.jpg",
           "https://www.youtube.com/watch?v=H4oLu4cP7h4"
         ),
         new Item(
           "TPD_mr_2019",
-          "The Prefect Date",
+          "Forrest Gump",
           "Romance",
-          "1h 30m",
-          "PG 12",
-          "A high school student creates an app to offer his services as a fake date to earn money for college, but his plan gets complicated when he develops feelings for someone.",
-          "12-04-2019",
+          "2h 23m",
+          "+13",
+          "Forrest, a man with low IQ, recounts the early years of his life when he found himself in the middle of key historical events. All he wants now is to be reunited with his childhood sweetheart, Jenny.",
+          "1994",
           false,
-          "./src/images/the-perfect-date.jpg",
+          "./src/images/forrest-gump.jpg",
           "https://www.youtube.com/watch?v=Hld-7oBn3Rk"
         ),
 
@@ -308,8 +308,11 @@ const component = {
           "LPVA_mh_2015",
           "Lake Placid Vs Anaconda",
           "Horror",
+          "1h 31m",
+          "+16",
+          "Genetically modified anacondas and giant crocodiles escape captivity and enter a nearby lake. When the two massive creatures fight, the sheriff tries to prevent the town from being destroyed.",
+          "2015",
           false,
-          "25-04-2015",
           "./src/images/lp-vs-a.jpg",
           "https://www.youtube.com/watch?v=u_AIV9c0FWc"
         ),
@@ -317,8 +320,11 @@ const component = {
           "ST_sh_2016",
           "Stranger Things",
           "Horror",
+          "3 Seasons",
+          "+16",
+          "In 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.",
+          "2016",
           false,
-          "15-06-2016",
           "./src/images/stranger-things.jpg",
           "https://www.youtube.com/watch?v=mnd7sFt5c3A"
         ),
@@ -326,8 +332,11 @@ const component = {
           "TCM_mh_2022",
           "Texas Chainsaw Massacre",
           "Horror",
+          "1h 23m",
+          "+18",
+          "Influencers looking to breathe new life into a Texas ghost town encounter Leatherface, the legendary killer who wears a mask of human skin.",
+          "2022",
           false,
-          "18-02-2022",
           "./src/images/texas-chainsaw-massacre.jpg",
           "https://www.youtube.com/watch?v=zcI6SFiK_yk"
         ),
