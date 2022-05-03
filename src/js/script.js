@@ -272,6 +272,13 @@ const component = {
           <img class="bg" v-bind:src="item.thumbnail" />
         </div>
       </div>
+
+      <div class="container-heading">Horror</div>
+      <div class="container">
+        <div class="box" v-for="(item, index) in romanceList" :key="item.id">
+          <img class="bg" v-bind:src="item.thumbnail" />
+        </div>
+      </div>
     </section>
   </main>
 
