@@ -65,6 +65,54 @@ const component = {
           "./src/images/kung-fu-hustle.jpg",
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
+
+        new Item(
+          "PB_sa_2013",
+          "Peaky Blinders",
+          "Action",
+          false,
+          "23-12-2013",
+          "./src/images/peaky-blinders.jpg",
+          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+        ),
+
+        new Item(
+          "PB_sa_2013",
+          "Peaky Blinders",
+          "Action",
+          false,
+          "23-12-2013",
+          "./src/images/peaky-blinders.jpg",
+          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+        ),
+        new Item(
+          "PB_sa_2013",
+          "Peaky Blinders",
+          "Action",
+          false,
+          "23-12-2013",
+          "./src/images/peaky-blinders.jpg",
+          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+        ),
+        new Item(
+          "PB_sa_2013",
+          "Peaky Blinders",
+          "Action",
+          false,
+          "23-12-2013",
+          "./src/images/peaky-blinders.jpg",
+          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+        ),
+        new Item(
+          "PB_sa_2013",
+          "Peaky Blinders",
+          "Action",
+          false,
+          "23-12-2013",
+          "./src/images/peaky-blinders.jpg",
+          "https://www.youtube.com/watch?v=47nS6Wo4yaw"
+        ),
+        
       ],
       visibleSlide: 0,
       userArray: [],
