@@ -1,13 +1,15 @@
 class Item {
-  constructor(id, name, genre, comingSoon, releaseDate, poster, trailer, description, preview) {
+  constructor(id, name, genre, runtime, rating, description, releaseDate, comingSoon, poster, trailer, preview) {
     this.id = id;
     this.name = name;
     this.genre = genre;
-    this.comingSoon = comingSoon;
+    this.runtime = runtime;
+    this.rating = rating;
+    this.description = description;
     this.releaseDate = releaseDate;
+    this.comingSoon = comingSoon;
     this.poster = poster;
     this.trailer = trailer;
-    this.description = description;
     this.preview = preview;
   }
 }
@@ -22,62 +24,76 @@ const component = {
           "TLAT_nm_2022",
           "Thor Love and Thunder",
           "New",
+          "1h32m",
+          "+13",
+          "Following the events of Avengers: Endgame (2019), Thor attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Jane Foster who has become the Mighty Thor to stop Gorr the God Butcher from eliminating all gods.",
+          "08-07-2022",          
           true,
-          "08-07-2022",
           "./src/images/love-and-thunder.png",
           "https://www.youtube.com/watch?v=tgB1wUcmbbw",
-          "Following the events of Avengers: Endgame (2019), Thor attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Jane Foster who has become the Mighty Thor to stop Gorr the God Butcher from eliminating all gods.",
           "./src/videos/thor-love-and-thunder.mp4"
         ),
         new Item(
           "OBK_ns_2022",
           "Obi-Wan Kenobi",
           "New",
-          true,
+          "1 Season",
+          "+13",
+          "The Jedi Master contends with the consequences of his greatest defeat the downfall and corruption of his one-time friend and apprentice, Anakin Skywalker, who turned to the dark side as evil Sith Lord Darth Vader.",
           "07-05-2022",
+          true,
           "./src/images/obi-wan-kenobi.png",
           "https://www.youtube.com/watch?v=TWTfhyvzTx0",
-          "The Jedi Master contends with the consequences of his greatest defeat the downfall and corruption of his one-time friend and apprentice, Anakin Skywalker, who turned to the dark side as evil Sith Lord Darth Vader.",
           "./src/videos/obi-wan.mp4"
         ),
         new Item(
           "JWD_nm_2022",
           "Jurassic World Dominion",
           "New",
-          true,
+          "1h32m",
+          "+13",
+          "The future of mankind hangs in the balance as humans and dinosaurs coexist following the destruction of Isla Nublar.",
           "10-06-2022",
+          true, 
           "./src/images/jurassic-world-3.png",
           "https://www.youtube.com/watch?v=fb5ELWi-ekk",
-          "The future of mankind hangs in the balance as humans and dinosaurs coexist following the destruction of Isla Nublar.",
           "./src/videos/jurassic-world-dominion.mp4"
         ),
         new Item(
           "HOTD_ns_2022",
           "House of the Dragon",
           "New",
-          true,
+          "1 Season",
+          "+13",
+          "Set two hundred years before the events of Game of Thrones, the series chronicles the beginning of the end of House Targaryen, the events leading up to the Targaryen civil war, known as the 'Dance of the Dragons', and the war itself.",
           "21-08-2022",
+          true,
           "./src/images/house-of-the-dragon.png",
           "https://www.youtube.com/watch?v=fNwwt25mheo",
-          "Set two hundred years before the events of Game of Thrones, the series chronicles the beginning of the end of House Targaryen, the events leading up to the Targaryen civil war, known as the 'Dance of the Dragons', and the war itself.",
-          "./src/videos/house-of-the-dragon.mp4"
+          "./src/videos/house-of-the-dragon.mp4",
         ),
 
         new Item(
           "PB_sa_2013",
           "Peaky Blinders",
           "Action",
-          false,
+          "6 Seasons",
+          "+18",
+          "Tommy Shelby, a dangerous man, leads the Peaky Blinders, a gang based in Birmingham. Soon, Chester Campbell, an inspector, decides to nab him and put an end to the criminal activities.",
           "12-09-2013",
+          false,
           "./src/images/peaky-blinders.jpg",
-          "https://www.youtube.com/watch?v=jImOqxQ0kkM"
+          "https://www.youtube.com/watch?v=jImOqxQ0kkM",
         ),
         new Item(
           "AOTD_ma_2021",
           "Army of the Dead",
           "Action",
-          false,
+          "2h 28m",
+          "+18",
+          "After a zombie outbreak in Las Vegas, a group of mercenaries take the ultimate gamble and venture into the quarantine zone in hopes of pulling off an impossible heist.",
           "23-12-2013",
+          false,
           "./src/images/army-of-the-dead.jpg",
           "https://www.youtube.com/watch?v=47nS6Wo4yaw"
         ),
@@ -85,8 +101,11 @@ const component = {
           "LDR_sa_2019",
           "Love, Death + Robots",
           "Action",
-          false,
+          "2 seasons",
+          "+18",
+          "This collection of animated short stories spans several genres, including science fiction, fantasy, horror and comedy. World-class animation creators bring captivating stories to life in the form of a unique and visceral viewing experience.",
           "15-03-2019",
+          false,
           "./src/images/love-death-robots.jpg",
           "https://www.youtube.com/watch?v=wUFwunMKa4E"
         ),
@@ -94,8 +113,11 @@ const component = {
           "AC_ma_2016",
           "Assassin's Creed",
           "Action",
-          false,
+          "1h 55m",
+          "+13",
+          "With the help of technology, Callum learns that he is a descendant of a dangerous society. He travels back in time to learn about his ancestors and acquire skills to defeat an evil organisation.",
           "21-12-2016",
+          false,
           "./src/images/assassins-creed.jpg",
           "https://www.youtube.com/watch?v=gfJVoF5ko1Y"
         ),
@@ -103,8 +125,11 @@ const component = {
           "V_sa_2013",
           "Vikings",
           "Action",
-          false,
+          "6 seasons",
+          "+18",
+          "Ragnar Lothbrok, a legendary Norse hero, is a mere farmer who rises up to become a fearless warrior and commander of the Viking tribes with the support of his equally ferocious family.",
           "03-03-2013",
+          false,
           "./src/images/vikings.jpg",
           "https://www.youtube.com/watch?v=9GgxinPwAGc"
         ),
