@@ -64,7 +64,7 @@ const component = {
   </header>
 
   <main>
-    <section class="banner" v-for="item in comingSoonList">
+    <section class="banner" v-for="item in comingSoonList.slice(0, 1)">
       <video class="bg" autoplay muted loop>
       <source :src="item.preview" type="video/mp4">
       </video>
