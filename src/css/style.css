@@ -90,6 +90,10 @@ header .netflix-logo img {
   color: white;
 }
 
+main {
+  z-index: 1;
+}
+
 .banner {
   position: relative;
   width: 100%;
@@ -112,7 +116,6 @@ header .netflix-logo img {
 
 .content {
   position: relative;
-  z-index: 1;
   max-width: 30vw;
   color: white;
   font-weight: 400;
@@ -298,6 +301,7 @@ header .netflix-logo img {
 }
 
 footer {
+  z-index: 2;
   max-width: 980px;
   margin: 10px auto;
   padding: 0 40px;
