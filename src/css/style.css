@@ -302,7 +302,7 @@ footer {
   margin: 10px auto;
   padding: 0 40px;
   color: grey;
-  font-size: 13px;
+  font-size: 0.7vw;
 }
 
 footer .social-links {
@@ -315,7 +315,7 @@ footer .social-link {
 }
 
 footer i {
-  font-size: 30px;
+  font-size: 1.6vw;
   color: white;
 }
 
@@ -327,5 +327,5 @@ footer .footer-grid {
 
 footer .footer-grid-wrapper {
   list-style-type: none;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
