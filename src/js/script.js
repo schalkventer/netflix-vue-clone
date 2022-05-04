@@ -79,7 +79,7 @@ const component = {
     <section id="content-grid">
       <div class="container-heading">Action</div>
       <div class="container">
-        <div class="box" v-for="item in actionList" :id="item.id">
+        <div class="box" v-for="item in actionList" :id="item.id" :class="item.name">
           <img class="bg" :src="item.poster" />
         </div>
       </div> 
