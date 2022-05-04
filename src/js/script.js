@@ -134,7 +134,7 @@ const component = {
     <p>© 2022-2022 Viswinkel, Ltd.</p>
   </footer>
   `,
-  mounted() {console.log(items)},
+  mounted() {console.log(ItemArray)},
 };
 
 window.addEventListener("DOMContentLoaded", () => {
