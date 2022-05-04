@@ -14,7 +14,7 @@ export let ItemArray = [
     "Following the events of Avengers: Endgame, Thor attempts to find inner peace, but must return to action and recruit Valkyrie, Korg, and Jane Foster who has become the Mighty Thor to stop Gorr the God Butcher from eliminating all gods.",
     "08-07-2022",
     true,
-    "/src/images/love-and-thunder.png",
+    "/src/images/thor-love-and-thunder.png",
     "https://www.youtube.com/watch?v=tgB1wUcmbbw",
     "/src/videos/thor-love-and-thunder.mp4"
   ),
@@ -29,7 +29,7 @@ export let ItemArray = [
     true,
     "/src/images/obi-wan-kenobi.png",
     "https://www.youtube.com/watch?v=TWTfhyvzTx0",
-    "/src/videos/obi-wan.mp4"
+    "/src/videos/obi-wan-kenobi.mp4"
   ),
   new Item(
     "m_JWD_nm_2022",
@@ -40,7 +40,7 @@ export let ItemArray = [
     "The future of mankind hangs in the balance as humans and dinosaurs coexist following the destruction of Isla Nublar.",
     "10-06-2022",
     true,
-    "/src/images/jurassic-world-3.png",
+    "/src/images/jurassic-world-dominion.png",
     "https://www.youtube.com/watch?v=fb5ELWi-ekk",
     "/src/videos/jurassic-world-dominion.mp4"
   ),
