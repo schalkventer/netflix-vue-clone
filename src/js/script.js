@@ -50,7 +50,7 @@ const component = {
   /* html */
   template: `
     <header id="myHeader">
-    <a href="./index.html" class="netflix-logo"><img src="./src/images/netflix.png" alt="Netflix logo"/></a>
+    <a href="./index.html" class="netflix-logo"><img src="/src/images/netflix.png" alt="Netflix logo"/></a>
     <ul class="navigation-list">
       <li>Home</li>
       <li><a href="./pages/series.html">Series</a></li>
