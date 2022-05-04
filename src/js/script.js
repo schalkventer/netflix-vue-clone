@@ -50,6 +50,7 @@ const component = {
 
   // html template
   template: /* html */ `
+    <div>
     <header id="myHeader">
     <a href="#" class="netflix-logo"><img src="/src/images/netflix.png" alt="Netflix logo"/></a>
     <ul class="navigation-list">
@@ -73,6 +74,26 @@ const component = {
         <div class="buttons">
           <button class="button play"><a :href="item.trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
           <button class="button info" id="myBtn"><i class="fa fa-plus"></i> More Info</button>
+          <!-- Modal -->
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <img v-bind:src="item.poster" />
+                <span class="close">
+                  x
+                </span>
+              </div>
+              <div class="modal-body">
+                <p>{{ item.release }}</p>
+                <p>{{ item.rating }}</p>
+                <p>{{ item.description }}</p>
+              </div>
+              <div class="modal-footer">
+                <h3>About: {{ item.name[0] }}</h3>
+                <p>Genre: {{ item.genre }}</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -132,32 +153,7 @@ const component = {
     </ul>
     <p>© 2022-2022 Viswinkel, Ltd.</p>
   </footer>
-
-
-        <!-- Modal -->
-        <div id="myModal" class="modal">
-        <div class="modal-content">
-          <div class="modal-header">
-            <img v-bind:src="background[0]" />
-            <span class="close">x
-            <div class="modal-buttons">
-              <button class="modal-play"><a :href="trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
-            </div>
-          </div>
-          <div class="modal-body">
-            <p>{{ release }}</p>
-            <p>{{ rating }}</p>
-            <p>{{ description }}</p>
-          </div>
-          <div class="modal-footer">
-            <h3>About: {{ name[0] }}</h3>
-            <p>Director: {{ cast[0] }}</p>
-            <p>Cast: {{ cast }}</p>
-            <p>Genre: {{ genre }}</p>
-          </div>
-        </div>
-      </div>    
-    </div>
+</div>
   `,
   mounted() {
     console.log(ItemArray);
@@ -168,23 +164,23 @@ const component = {
 window.addEventListener("DOMContentLoaded", () => {
   const app = createApp(component);
   app.mount("#app");
-// modal
-let modal = document.getElementById("myModal");
-let btn = document.getElementById("myBtn");
-let span = document.getElementsByClassName("close")[0];
+  // modal
+  let modal = document.getElementById("myModal");
+  let btn = document.getElementById("myBtn");
+  let span = document.getElementsByClassName("close")[0];
 
-btn.onclick = function () {
-  modal.style.display = "block";
-};
+  btn.onclick = function () {
+    modal.style.display = "block";
+  };
 
-span.onclick = function () {
-  modal.style.display = "none";
-};
-
-window.onclick = function (event) {
-  if (event.target == modal) {
+  span.onclick = function () {
     modal.style.display = "none";
-  }
-};  
+  };
+
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
 });
 
