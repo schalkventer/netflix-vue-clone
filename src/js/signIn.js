@@ -1,5 +1,3 @@
-/* ---- variables ---- */
-
 const form = document.querySelector("#signInform");
 const inputUsername = document.querySelector("#username");
 const inputPassword = document.querySelector("#password");
