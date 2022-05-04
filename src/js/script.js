@@ -9,6 +9,7 @@ const component = {
     };
   },
 
+  // filter function
   computed: {
     comingSoonList() {
       return this.itemList.filter((item) => {
@@ -47,8 +48,8 @@ const component = {
     },
   },
 
-  /* html */
-  template: `
+  // html template
+  template: /* html */ `
     <header id="myHeader">
     <a href="#" class="netflix-logo"><img src="/src/images/netflix.png" alt="Netflix logo"/></a>
     <ul class="navigation-list">
@@ -137,6 +138,7 @@ const component = {
   },
 };
 
+// mounting app
 window.addEventListener("DOMContentLoaded", () => {
   const app = createApp(component);
   app.mount("#app");

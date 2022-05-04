@@ -1,8 +1,6 @@
 import { Item } from "./Item.js";
 
-/************
- Array of Item objects
-************/
+/* Array of Item objects */
 export let ItemArray = [
   // coming soon
   new Item(

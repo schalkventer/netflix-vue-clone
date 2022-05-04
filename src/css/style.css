@@ -9,12 +9,13 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* body */
 body {
   background-color: #141414;
   color: white;
 }
 
-/* App styling */
+/*** App styling ***/
 
 /* loading ring */
 .ring {

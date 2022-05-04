@@ -1,3 +1,4 @@
+/* class constructor */
 export class Item {
   constructor(id, name, genre, runtime, rating, description, releaseDate, comingSoon, poster,trailer, preview) {
     this.id = id;
