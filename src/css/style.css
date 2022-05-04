@@ -299,6 +299,9 @@ main {
   padding: 2px 3rem;
 }
 .modal-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   padding: 2px 3rem;
   color: white;
 }

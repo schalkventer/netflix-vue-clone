@@ -74,23 +74,22 @@ const component = {
         <div class="buttons">
           <button class="button play"><a :href="item.trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
           <button class="button info" id="myBtn"><i class="fa fa-plus"></i> More Info</button>
+          
           <!-- Modal -->
           <div id="myModal" class="modal">
             <div class="modal-content">
               <div class="modal-header">
-                <img v-bind:src="item.poster" />
-                <span class="close">
-                  x
-                </span>
+                <img :src="item.poster" />
+                <span class="close">x</span>
               </div>
               <div class="modal-body">
-                <p>{{ item.release }}</p>
-                <p>{{ item.rating }}</p>
+              <h3>About: {{ item.name }}</h3>
                 <p>{{ item.description }}</p>
               </div>
               <div class="modal-footer">
-                <h3>About: {{ item.name[0] }}</h3>
+                <p>Release: {{ item.releaseDate }}</p>
                 <p>Genre: {{ item.genre }}</p>
+                <p>Rating: {{ item.rating }}</p>
               </div>
             </div>
           </div>
