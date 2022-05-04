@@ -64,7 +64,7 @@ const component = {
   </header>
 
   <main>
-    <section class="banner" v-for="(item, index) in comingSoonList">
+    <section class="banner" v-for="item in comingSoonList">
       <video class="bg" autoplay muted loop>
       <source :src="item.preview" type="video/mp4">
       </video>
@@ -81,28 +81,28 @@ const component = {
     <section id="content-grid">
       <div class="container-heading">Action</div>
       <div class="container">
-        <div class="box" v-for="(item, index) in actionList" :id="item.id">
+        <div class="box" v-for="item in actionList" :id="item.id">
           <img class="bg" :src="item.poster" />
         </div>
       </div> 
 
       <div class="container-heading">Comedy</div>
       <div class="container">
-        <div class="box" v-for="(item, index) in comedyList" :id="item.id">
+        <div class="box" v-for="item in comedyList" :id="item.id">
           <img class="bg" :src="item.poster" />
         </div>
       </div>
 
       <div class="container-heading">Romance</div>
       <div class="container">
-        <div class="box" v-for="(item, index) in romanceList" :id="item.id">
+        <div class="box" v-for="item in romanceList" :id="item.id">
           <img class="bg" :src="item.poster" />
         </div>
       </div>
 
       <div class="container-heading">Horror</div>
       <div class="container">
-        <div class="box" v-for="(item, index) in horrorList" :id="item.id">
+        <div class="box" v-for="item in horrorList" :id="item.id">
           <img class="bg" :src="item.poster" />
         </div>
       </div>
