@@ -29,14 +29,16 @@ form {
   min-height: 600px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 form h1 {
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 form .text-input {
-  height: 45px;
+  height: 50px;
   width: 350px;
   margin-bottom: 20px;
   border: none;
@@ -50,8 +52,14 @@ form .sign-in {
   font-size: 17px;
   border: none;
   border-radius: 6px;
-  height: 45px;
+  height: 50px;
   width: 350px;
   margin-top: 20px;
+  margin-bottom: 80px;
   cursor: pointer;
+}
+
+form p {
+    font-size: 13px;
+    color: #8c8c8c;
 }
