@@ -25,8 +25,8 @@ header .netflix-logo img {
 form {
   padding: 40px;
   background-color: rgba(0, 0, 0, 0.774);
-  max-width: 450px;
-  min-height: 600px;
+  max-width: 430px;
+  min-height: 630px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -43,6 +43,7 @@ form .text-input {
   margin-bottom: 20px;
   border: none;
   border-radius: 6px;
+  padding-left: 10px;
 }
 
 form .sign-in {
