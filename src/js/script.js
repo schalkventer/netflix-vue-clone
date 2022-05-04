@@ -132,6 +132,32 @@ const component = {
     </ul>
     <p>© 2022-2022 Viswinkel, Ltd.</p>
   </footer>
+
+
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img v-bind:src="background[0]" />
+            <span class="close">x
+            <div class="modal-buttons">
+              <button class="modal-play"><a :href="trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <p>{{ release }}</p>
+            <p>{{ rating }}</p>
+            <p>{{ description }}</p>
+          </div>
+          <div class="modal-footer">
+            <h3>About: {{ name[0] }}</h3>
+            <p>Director: {{ cast[0] }}</p>
+            <p>Cast: {{ cast }}</p>
+            <p>Genre: {{ genre }}</p>
+          </div>
+        </div>
+      </div>    
+    </div>
   `,
   mounted() {
     console.log(ItemArray);
@@ -142,4 +168,23 @@ const component = {
 window.addEventListener("DOMContentLoaded", () => {
   const app = createApp(component);
   app.mount("#app");
+// modal
+let modal = document.getElementById("myModal");
+let btn = document.getElementById("myBtn");
+let span = document.getElementsByClassName("close")[0];
+
+btn.onclick = function () {
+  modal.style.display = "block";
+};
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};  
 });
+
