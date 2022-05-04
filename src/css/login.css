@@ -11,7 +11,6 @@ body {
   background-color: #141414;
   color: white;
   background-image: url("/src/images/login-bg.jpg");
-
 }
 
 header {
@@ -24,29 +23,35 @@ header .netflix-logo img {
 }
 
 form {
-    padding: 40px;
-    background-color: rgba(0, 0, 0, 0.774);
-    max-width: 450px;
-    min-height: 600px;
-    display: flex;
-    flex-direction: column;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.774);
+  max-width: 450px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+form h1 {
+  font-weight: 600;
 }
 
 form .text-input {
-    height: 45px;
-    width: 350px;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 6px;
+  height: 45px;
+  width: 350px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
 }
 
 form .sign-in {
-    background-color: #e50914;
-    color: white;
-    font-weight: 500;
-    font-size: 17px;
-    border: none;
-    border-radius: 6px;
-    height: 45px;
-    width: 350px;
+  background-color: #e50914;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  border: none;
+  border-radius: 6px;
+  height: 45px;
+  width: 350px;
+  margin-top: 20px;
+  cursor: pointer;
 }
