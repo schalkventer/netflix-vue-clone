@@ -50,10 +50,10 @@ const component = {
   /* html */
   template: `
     <header id="myHeader">
-    <a href="#" class="netflix-logo"><img src="/src/images/netflix.png" alt="Netflix logo"/></a>
+    <a href="./home.html" class="netflix-logo"><img src="/src/images/netflix.png" alt="Netflix logo"/></a>
     <ul class="navigation-list">
-      <li>Home</li>
-      <li><a href="./my-list.html">My List</a></li>
+      <li><a href="./home.html">Home<a></li>
+      <li>My List</li>
     </ul>
     <div class="search">
       <input type="search" placeholder="Titles, people, genres" id="search"/>
@@ -62,19 +62,6 @@ const component = {
   </header>
 
   <main>
-    <section class="banner" v-for="item in comingSoonList.slice(0, 1)">
-      <video class="bg" autoplay muted loop>
-      <source :src="item.preview" type="video/mp4">
-      </video>
-      <div class="content">
-        <img :src="item.poster" class="movieTitle" />
-        <p>{{ item.description }}</p>
-        <div class="buttons">
-          <button class="button play"><a :href="item.trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
-          <button class="button info" id="myBtn"><i class="fa fa-plus"></i> More Info</button>
-        </div>
-      </div>
-    </section>
 
     <section id="content-grid">
       <div class="container-heading">Action</div>
