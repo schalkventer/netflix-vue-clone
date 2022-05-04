@@ -4,14 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/login.css" />
     <link rel="icon" href="./src/images/favicon.ico" type="image/x-icon" />
     <script src="https://unpkg.com/vue@3" defer></script>
-    <script src="https://kit.fontawesome.com/e4ad388285.js" crossorigin="anonymous" defer></script>
+    <script
+      src="https://kit.fontawesome.com/e4ad388285.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
     <script src="./src/js/script.js" type="module" defer></script>
     <title>Netflix</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header id="myHeader">
+      <div class="netflix-logo">
+        <img src="/src/images/netflix.png" alt="Netflix logo" />
+      </div>
+    </header>
+    <main>
+      <form>
+        <h1>Sign In</h1>
+        <input type="text" placeholder="Username" class="text-input" />
+        <input type="text" placeholder="Password" class="text-input"/>
+        <input type="submit" class="sign-in">
+        <p>You have to sign in every time</p>
+      </form>
+    </main>
   </body>
 </html>
