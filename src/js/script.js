@@ -114,20 +114,20 @@ const component = {
       <a href="https://www.linkedin.com/in/oliver-vermeulen-311221222/" class="social-link" target="_blank"><i class="fab fa-linkedin-in icon" alt="Linkedin"></i></a>
     </div>
     <ul class="footer-grid">
-      <li class="footer-grid-wrapper">Audio and Subtitles</li>
-      <li class="footer-grid-wrapper">Audio Description</li>
-      <li class="footer-grid-wrapper">Help Centre</li>
-      <li class="footer-grid-wrapper">Gift Cards</li>
+      <li class="footer-grid-item">Audio and Subtitles</li>
+      <li class="footer-grid-item">Audio Description</li>
+      <li class="footer-grid-item">Help Centre</li>
+      <li class="footer-grid-item">Gift Cards</li>
 
-      <li class="footer-grid-wrapper">Media Centre</li>
-      <li class="footer-grid-wrapper">Investor Relations</li>
-      <li class="footer-grid-wrapper">Jobs</li>
-      <li class="footer-grid-wrapper">Terms of Use</li>
+      <li class="footer-grid-item">Media Centre</li>
+      <li class="footer-grid-item">Investor Relations</li>
+      <li class="footer-grid-item">Jobs</li>
+      <li class="footer-grid-item">Terms of Use</li>
 
-      <li class="footer-grid-wrapper">Privacy</li>
-      <li class="footer-grid-wrapper">Legal Notices</li>
-      <li class="footer-grid-wrapper">Cookie Preferences</li>
-      <li class="footer-grid-wrapper">Corporate Information</li>
+      <li class="footer-grid-item">Privacy</li>
+      <li class="footer-grid-item">Legal Notices</li>
+      <li class="footer-grid-item">Cookie Preferences</li>
+      <li class="footer-grid-item">Corporate Information</li>
     </ul>
     <p>© 2022-2022 Viswinkel, Ltd.</p>
   </footer>

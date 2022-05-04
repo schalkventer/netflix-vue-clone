@@ -329,7 +329,7 @@ footer .footer-grid {
   cursor: default;
 }
 
-footer .footer-grid-wrapper {
+footer .footer-grid-item {
   list-style-type: none;
   padding-bottom: 16px;
 }
