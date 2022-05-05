@@ -341,10 +341,10 @@ footer .footer-grid-item {
   padding-bottom: 16px;
 }
 
-.mydivoutermulti {
+.hover-button-display {
   float: left;
 }
-.buttonoverlapmulti {
+.hover-button {
   position: absolute;
   z-index: 2;
   top: 10%;
@@ -359,7 +359,8 @@ footer .footer-grid-item {
   align-items: center;
   background-color: grey;
   border-radius: 50%;
+  font-size: 0.8vw;
 }
-.mydivoutermulti:hover .buttonoverlapmulti {
+.hover-button-display:hover .hover-button {
   display: block;
 }

@@ -100,30 +100,33 @@ const component = {
     <section id="content-grid">
       <div class="container-heading">Action</div>
       <div class="container">
-        <div class="box mydivoutermulti" v-for="item in actionList.slice(0, 6)" :id="item.id" :class="item.name" :alt="item.name">
+        <div class="box hover-button-display" v-for="item in actionList.slice(0, 6)" :id="item.id" :class="item.name" :alt="item.name">
           <img class="bg" :src="item.poster" />
-          <button type="button" class="buttonoverlapmulti btn btn-info"><i class="fa fa-info"></i></button>
+          <button type="button" class="hover-button"><i class="fa fa-info"></i></button>
         </div>
       </div> 
 
       <div class="container-heading">Comedy</div>
       <div class="container">
-        <div class="box" v-for="item in comedyList.slice(0, 6)" :id="item.id" :class="item.name" :alt="item.name">
+        <div class="box hover-button-display" v-for="item in comedyList.slice(0, 6)" :id="item.id" :class="item.name" :alt="item.name">
           <img class="bg" :src="item.poster" />
+          <button type="button" class="hover-button"><i class="fa fa-info"></i></button>
         </div>
       </div>
 
       <div class="container-heading">Romance</div>
       <div class="container">
-        <div class="box" v-for="item in romanceList.slice(0, 6)" :id="item.id" :class="item.name" :alt="item.name">
+        <div class="box hover-button-display" v-for="item in romanceList.slice(0, 6)" :id="item.id" :class="item.name" :alt="item.name">
           <img class="bg" :src="item.poster" />
+          <button type="button" class="hover-button"><i class="fa fa-info"></i></button>
         </div>
       </div>
 
       <div class="container-heading">Horror</div>
       <div class="container">
-        <div class="box" v-for="item in horrorList.slice(0, 6)" :id="item.id" :class="item.name" :alt="item.name">
+        <div class="box hover-button-display" v-for="item in horrorList.slice(0, 6)" :id="item.id" :class="item.name" :alt="item.name">
           <img class="bg" :src="item.poster" />
+          <button type="button" class="hover-button"><i class="fa fa-info"></i></button>
         </div>
       </div>
     </section>
