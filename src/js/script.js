@@ -73,7 +73,7 @@ const component = {
         <p>{{ item.description }}</p>
         <div class="buttons">
           <button class="button play"><a :href="item.trailer" target="_blank"><i class="fa fa-play"></i> Play</a></button>
-          <button class="button info" id="myBtn"><i class="fa fa-plus"></i> More Info</button>
+          <button class="button info" class="myBtn"><i class="fa fa-plus"></i> More Info</button>
           
           <!-- Modal -->
           <div id="myModal" class="modal">
@@ -102,7 +102,7 @@ const component = {
       <div class="container">
         <div class="box hover-button-display" v-for="item in actionList.slice(0, 6)" :id="item.id" :class="item.name" :alt="item.name">
           <img class="bg" :src="item.poster" />
-          <button type="button" class="hover-button" id="myBtn"><i class="fa fa-info"></i></button>
+          <button type="button" class="hover-button" class="myBtn"><i class="fa fa-info"></i></button>
         </div>
       </div> 
 
@@ -171,7 +171,7 @@ window.addEventListener("DOMContentLoaded", () => {
   app.mount("#app");
   // modal
   let modal = document.querySelector("#myModal");
-  let btn = document.querySelector("#myBtn");
+  let btn = document.querySelector(".myBtn");
   let span = document.querySelector(".close");
 
   btn.onclick = function () {
