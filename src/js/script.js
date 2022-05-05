@@ -167,6 +167,17 @@ const component = {
 window.addEventListener("DOMContentLoaded", () => {
   const app = createApp(component);
   app.mount("#app");
+let header = document.getElementById("myHeader");
+let sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
   // modal
   let modal = document.querySelector(".myModal");
   let btn = document.querySelector(".myBtn");
@@ -190,16 +201,5 @@ window.addEventListener("DOMContentLoaded", () => {
 window.onscroll = function () {
   myFunction();
 };
-
-let header = document.getElementById("myHeader");
-let sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
 });
 
