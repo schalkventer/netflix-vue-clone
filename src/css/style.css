@@ -346,7 +346,7 @@ footer .footer-grid-item {
 }
 .hover-button {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   top: 10%;
   left: 85%;
   display: none;
