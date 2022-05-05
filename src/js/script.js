@@ -1,6 +1,8 @@
 import { ItemArray } from "../classes/ItemArray.js";
-
 const { createApp } = window.Vue;
+
+const filterComingSoon = (value, itemList) => itemList.filter(item => item.comingSoon === value);
+const filterGenre = (key, itemList) => itemList.filter(item => item.genre === key);
 
 const Component = {
   data() {
@@ -11,41 +13,12 @@ const Component = {
 
   // filter function
   computed: {
-    comingSoonList() {
-      return this.itemList.filter((item) => {
-        return item.comingSoon === true;
-      });
-    },
-
-    availableList() {
-      return this.itemList.filter((item) => {
-        return item.comingSoon === false;
-      });
-    },
-
-    actionList() {
-      return this.itemList.filter((item) => {
-        return item.genre === "Action";
-      });
-    },
-
-    comedyList() {
-      return this.itemList.filter((item) => {
-        return item.genre === "Comedy";
-      });
-    },
-
-    romanceList() {
-      return this.itemList.filter((item) => {
-        return item.genre === "Romance";
-      });
-    },
-
-    horrorList() {
-      return this.itemList.filter((item) => {
-        return item.genre === "Horror";
-      });
-    },
+    comingSoonList() { return filterComingSoon(true, this.itemList) },
+    availableList() { return filterComingSoon(true, this.itemList) },
+    actionList() { return filterGenre('Action', this.itemList) },
+    comedyList() { return filterGenre('Comedy', this.itemList) },
+    romanceList() { return filterGenre('Romance', this.itemList) },
+    horrorList() { return filterGenre('Horror', this.itemList) },
   },
 
   // html template
