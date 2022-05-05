@@ -100,8 +100,9 @@ const component = {
     <section id="content-grid">
       <div class="container-heading">Action</div>
       <div class="container">
-        <div class="box" v-for="item in actionList.slice(0, 6)" :id="item.id" :class="item.name" :alt="item.name">
+        <div class="box mydivoutermulti" v-for="item in actionList.slice(0, 6)" :id="item.id" :class="item.name" :alt="item.name">
           <img class="bg" :src="item.poster" />
+          <button type="button" class="buttonoverlapmulti btn btn-info">HTML</button>
         </div>
       </div> 
 

@@ -340,3 +340,19 @@ footer .footer-grid-item {
   list-style-type: none;
   padding-bottom: 16px;
 }
+
+
+        .mydivoutermulti{
+            float: left;
+        }
+        .buttonoverlapmulti{
+            position: absolute;
+            z-index: 2;
+            top: 33px;
+            display: none;
+            left: 19px;
+            width: 92px;
+        }
+        .mydivoutermulti:hover .buttonoverlapmulti{ 
+            display:block;
+        }
