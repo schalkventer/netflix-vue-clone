@@ -102,7 +102,7 @@ const component = {
       <div class="container">
         <div class="box mydivoutermulti" v-for="item in actionList.slice(0, 6)" :id="item.id" :class="item.name" :alt="item.name">
           <img class="bg" :src="item.poster" />
-          <button type="button" class="buttonoverlapmulti btn btn-info">HTML</button>
+          <button type="button" class="buttonoverlapmulti btn btn-info"><i class="fa fa-info"></i></button>
         </div>
       </div> 
 

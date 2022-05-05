@@ -341,18 +341,25 @@ footer .footer-grid-item {
   padding-bottom: 16px;
 }
 
-
-        .mydivoutermulti{
-            float: left;
-        }
-        .buttonoverlapmulti{
-            position: absolute;
-            z-index: 2;
-            top: 33px;
-            display: none;
-            left: 19px;
-            width: 92px;
-        }
-        .mydivoutermulti:hover .buttonoverlapmulti{ 
-            display:block;
-        }
+.mydivoutermulti {
+  float: left;
+}
+.buttonoverlapmulti {
+  position: absolute;
+  z-index: 2;
+  top: 10%;
+  left: 85%;
+  display: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+  width: 1.4vw;
+  height: 1.4vw;
+  cursor: pointer;
+  align-items: center;
+  background-color: grey;
+  border-radius: 50%;
+}
+.mydivoutermulti:hover .buttonoverlapmulti {
+  display: block;
+}
