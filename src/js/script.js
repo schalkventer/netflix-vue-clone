@@ -102,7 +102,7 @@ const component = {
       <div class="container">
         <div class="box hover-button-display" v-for="item in actionList.slice(0, 6)" :id="item.id" :class="item.name" :alt="item.name">
           <img class="bg" :src="item.poster" />
-          <button type="button" class="hover-button"><i class="fa fa-info"></i></button>
+          <button type="button" class="hover-button" id="myBtn"><i class="fa fa-info"></i></button>
         </div>
       </div> 
 
@@ -130,6 +130,8 @@ const component = {
         </div>
       </div>
     </section>
+
+    
   </main>
 
   <footer id="myFooter">
@@ -168,9 +170,9 @@ window.addEventListener("DOMContentLoaded", () => {
   const app = createApp(component);
   app.mount("#app");
   // modal
-  let modal = document.getElementById("myModal");
-  let btn = document.getElementById("myBtn");
-  let span = document.getElementsByClassName("close")[0];
+  let modal = document.querySelector("#myModal");
+  let btn = document.querySelector("#myBtn");
+  let span = document.querySelector(".close");
 
   btn.onclick = function () {
     modal.style.display = "block";
