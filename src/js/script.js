@@ -76,7 +76,7 @@ const component = {
           <button class="button info" class="myBtn"><i class="fa fa-plus"></i> More Info</button>
           
           <!-- Modal -->
-          <div id="myModal" class="modal">
+          <div class="myModal modal">
             <div class="modal-content">
               <div class="modal-header">
                 <img :src="item.poster" />
@@ -170,7 +170,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const app = createApp(component);
   app.mount("#app");
   // modal
-  let modal = document.querySelector("#myModal");
+  let modal = document.querySelector(".myModal");
   let btn = document.querySelector(".myBtn");
   let span = document.querySelector(".close");
 
