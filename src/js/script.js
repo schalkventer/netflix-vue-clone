@@ -2,7 +2,7 @@ import { ItemArray } from "../classes/ItemArray.js";
 
 const { createApp } = window.Vue;
 
-const component = {
+const Component = {
   data() {
     return {
       itemList: ItemArray,
@@ -64,7 +64,7 @@ const component = {
   </header>
 
   <main id="myMain">
-    <section class="banner" v-for="item in comingSoonList.slice(0, 1)">
+    <section class="banner" v-for="item in comingSoonList">
       <video class="bg" autoplay muted loop>
       <source :src="item.preview" type="video/mp4">
       </video>
@@ -165,7 +165,7 @@ const component = {
 
 // mounting app
 window.addEventListener("DOMContentLoaded", () => {
-  const app = createApp(component);
+  const app = createApp(Component);
   app.mount("#app");
 let header = document.getElementById("myHeader");
 let sticky = header.offsetTop;
